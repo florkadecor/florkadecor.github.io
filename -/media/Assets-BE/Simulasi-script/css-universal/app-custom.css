@@ -1,0 +1,521 @@
+.o-simulation-form .mt-10{
+  margin-top: 10px; }
+.o-simulation-form .mt-17 {
+  margin-top: 17px; }
+.o-simulation-form .mb-20 {
+  margin-bottom: 20px; }
+.o-simulation-form .row-button {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+.o-simulation-form .tabs-wealth {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 80px; }
+.o-simulation-form .bold-question {
+  font-weight: 600;
+  color: #0c5bbb; }
+.o-simulation-form .mt-last-kmk {
+  margin-top: 40px; }
+.o-simulation-form .title-result {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+.o-simulation-form .detail-transaksi-modal{
+  font-size: 16px;
+  font-weight: 600;
+}
+.o-simulation-form .result-kkb {
+  font-size: 14px;
+  color: #6d6d6d; }
+.o-simulation-form .red-error {
+  font-size: 2.2rem;
+  color: #CC0000; }
+.o-simulation-form .float-right {
+  position: relative;
+  float: right; }
+.o-simulation-form .button-blue-action {
+  position: relative;
+  display: block;
+  height: 35px;
+  margin-bottom: 20px;
+  background-color: #00b7f1;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px; }
+.o-simulation-form .row-estimasi {
+  position: relative;
+  margin-top: 30px; }
+.o-simulation-form .col-estimasi {
+  position: relative;
+  margin-top: 30px; }
+.o-simulation-form .profil-resiko-target {
+  position: relative;
+  margin-top: 17px;
+  margin-bottom: 18px;
+  color: #7c7c7c; }
+.o-simulation-form .tabs-target-hasil {
+  position: relative;
+  padding-bottom: 48px; }
+.o-simulation-form .text-target-investasi {
+  position: relative;
+  margin-top: 40px; }
+.o-simulation-form .tabs-target {
+  position: relative;
+  margin-top: 0px; }
+.o-simulation-form .text-suku-bunga-flat {
+  margin-top: 50px;
+  color: #7c7c7c; }
+.o-simulation-form .col-estimasi-cicilan {
+  margin-top: 35px;
+  margin-bottom: 25px; }
+.o-simulation-form .jangka-waktu-kkb {
+  margin-top: 35px; }
+.o-simulation-form .jangka-waktu-kkb-2 {
+  margin-top: 48px; }
+@media (max-width: 767.98px) {
+  .o-simulation-form .float-right {
+    float: none; }
+  .o-simulation-form .mt-last-kmk {
+    margin-top: 35px; }
+  .o-simulation-form .text-suku-bunga-flat {
+    margin-top: 15px; }
+  .o-simulation-form .jangka-waktu-kkb {
+    margin-top: 15px; }
+  .o-simulation-form .jangka-waktu-kkb-2{
+    margin-top: 15px; }
+  .o-simulation-form .col-estimasi-cicilan {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .o-simulation-form .row-estimasi {
+    margin-top: 15px; }
+  .o-simulation-form .col-estimasi {
+    margin-top: 15px; }
+  .o-simulation-form .tabs-target-hasil {
+    padding-bottom: 0px; }
+  .o-simulation-form .profil-resiko-target {
+    margin-top: 0px;
+    margin-bottom: 10px; }
+  .o-simulation-form .text-result-dana-invest {
+    margin-top: 15px; }
+  .o-simulation-form .tabs-target {
+    margin-top: 30px; } }
+.o-simulation-form hr {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.o-simulation-form .hide-select-default .a-dropdown-trigger {
+  display: none; }
+.o-simulation-form .label-ksm {
+  position: relative;
+  margin-bottom: 15px !important; }
+.o-simulation-form .text-harga-otr {
+  position: relative;
+  margin-top: 17px;
+  color: #7c7c7c;
+  font-size: 1.4rem;
+  margin-bottom: 3px; }
+.o-simulation-form .select-customize {
+  padding-bottom: 1rem;
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+  display: table;
+  min-width: 100%;
+  cursor: pointer; }
+.o-simulation-form .select2-container {
+  width: 100% !important; }
+.o-simulation-form .select2-dropdown {
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.03), 0 0 10px 0 rgba(0, 0, 0, 0.03) !important;
+  border: none !important; }
+.o-simulation-form .select2-container--default .select2-selection--single {
+  height: 40px !important;
+  padding-bottom: 1rem;
+  border: 0 !important;
+  border-bottom: 1px solid #b0b0b0 !important;
+  border-radius: 1px !important;
+  outline: none !important; }
+.o-simulation-form .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #0066AE transparent transparent transparent !important;
+  border: solid #0066AE !important;
+  border-width: 0 3px 3px 0 !important;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #0066AE; }
+.o-simulation-form .select2-search {
+  background-color: #ffffff !important; }
+.o-simulation-form .select2-search input {
+  background-color: #ffffff !important; }
+.o-simulation-form .select2-results {
+  background-color: #ffffff !important; }
+.o-simulation-form .select2-choice {
+  background-color: #ffffff !important; }
+.o-simulation-form .select2-container--default .select2-selection--single {
+  background-color: #ffffff !important;
+  border: none; }
+.o-simulation-form .select2-container--default .select2-results__option--selected {
+  background-color: #ffffff !important;
+  color: #000000 !important; }
+.o-simulation-form .select2-results__option {
+  padding: 6px 10px !important; }
+.o-simulation-form .select2-results__option--highlighted {
+  color: #000000 !important;
+  background-color: rgba(0, 0, 0, 0.03) !important; }
+.o-simulation-form .text-gray {
+  color: #6c6c6c; }
+.o-simulation-form img {
+  width: 80px;
+  height: 40px; }
+.o-simulation-form .wrapper {
+  background-color: #f1f5f8;
+  margin: auto; }
+.o-simulation-form .header {
+  margin-top: 25px;
+  background-color: #0066ae;
+  padding: 24px; }
+.o-simulation-form .header img {
+  position: relative;
+  top: 9px; }
+.o-simulation-form .header p {
+  font-size: 12px;
+  color: #fff;
+  float: right;
+  max-width: 155px;
+  top: 10px;
+  text-align: right; }
+.o-simulation-form .hero-banner {
+  background-image: url("https://www.bca.co.id/-/media/Assets-BE/Simulasi-script/img/pdf/hero-banner-pdf.png");
+  overflow: hidden;
+  height: 176px;
+  padding: 0 24px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-position: center; }
+.o-simulation-form .hero-banner p {
+  position: relative;
+  top: 120px;
+  font-size: 24px;
+  color: #fff; }
+.o-simulation-form .main {
+  padding: 10px; }
+.o-simulation-form .main-simulasi {
+  cursor: pointer;
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px; }
+.o-simulation-form .label {
+  font-size: 14px; }
+.o-simulation-form .text-small {
+  font-size: 12px; }
+.o-simulation-form .estimasi {
+  padding: 16px 20px; }
+.o-simulation-form .value-estimasi {
+  font-size: 32px;
+  margin-top: 8px; }
+.o-simulation-form .card {
+  background-image: url(https://www.bca.co.id/-/media/Assets-BE/Simulasi-script/img/others/featurate-card-corner-img.png);
+  background-repeat: no-repeat;
+  background-size: 145px 130px;
+  background-position: top right;
+  cursor: pointer;
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px; }
+.o-simulation-form .card img {
+  width: 45px;
+  height: 50px;
+  position: relative;
+  top: 28px;
+  right: 40px;
+  float: right; }
+.o-simulation-form .card .title {
+  font-size: 24px; }
+.o-simulation-form .card .description {
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 8px; }
+.o-simulation-form .card a {
+  font-size: 16px;
+  color: #1473e6;
+  text-decoration: none; }
+.o-simulation-form .footer {
+  text-align: center;
+  padding: 24px 0;
+  line-height: 16px; }
+.o-simulation-form .text-footer {
+  font-size: 11px;
+  margin-top: 16px; }
+.o-simulation-form .text-footer .small {
+  font-size: 8px; }
+.o-simulation-form .mt-20 {
+  margin-top: 20px; }
+.o-simulation-form .border-none {
+  border: none;
+  outline: none; }
+.o-simulation-form #sukubungaTahaka {
+  font-size: 4.6rem;
+  color: #7c7c7c; }
+.o-simulation-form .active-suku-tahaka {
+  font-size: 4.6rem !important;
+  color: #000000 !important; }
+.o-simulation-form .suku-bunga-tahaka-text {
+  position: relative;
+  padding-top: 25px;
+  color: #7c7c7c; }
+.o-simulation-form .koma-percent-reksa-dana {
+  position: absolute;
+  font-size: 19px;
+  bottom: -5px;
+  right: 4px; }
+.o-simulation-form .koma-percent-obligasi {
+  position: absolute;
+  font-size: 19px;
+  bottom: -5px;
+  right: 4px; }
+.o-simulation-form .percent-estimasi {
+  position: relative;
+  float: right;
+  top: -35px;
+  font-size: 2rem; }
+.o-simulation-form .button-unduh-simul {
+  background: transparent;
+  border: none;
+  outline: none; }
+.o-simulation-form .button-simul-tahaka {
+  background: transparent;
+  border: none;
+  outline: none; }
+.o-simulation-form .button-kkb {
+  background: transparent;
+  border: none;
+  outline: none; }
+.o-simulation-form .button-kmk {
+  background: transparent;
+  border: none;
+  outline: none;
+  width:100%;
+ }
+.o-simulation-form .button-obligasi {
+  background: transparent;
+  border: none;
+  outline: none; 
+  width: 100%;
+}
+.o-simulation-form .modal-tahaka {
+  width: 595px; }
+.o-simulation-form .modal-reksa {
+  width: 595px; }
+.o-simulation-form .modal-kkb {
+  width: 595px; }
+.o-simulation-form .modal-kkb-pembeli {
+  width: 595px; }
+.o-simulation-form .modal-kmk {
+  width: 595px; }
+.o-simulation-form .modal {
+  z-index: 10000;
+  padding: 10px !important;
+  position: fixed;
+  /* Stay in place */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  left: 0;
+  top: 0;
+  padding-top: 100px;
+  /* Location of the box */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Black w/ opacity */
+  z-index: 99;
+  /* Sit on top */ }
+.o-simulation-form .modal-content {
+  position: relative;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888; }
+.o-simulation-form .close-modal {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  color: #aaaaaa;
+  font-size: 28px;
+  font-weight: bold; }
+.o-simulation-form .close-modal:hover,
+.o-simulation-form .close-modal:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+.o-simulation-form .title-select-reksa {
+  position: relative;
+  margin-top: 24px; }
+.o-simulation-form .text-dana {
+  position: relative;
+  margin-top: 24px; }
+.o-simulation-form .title-headline-kkb{
+  font-size: 2.4rem;
+}
+.o-simulation-form .subheadline-kkb{
+  font-size: 1.8rem;
+}
+.o-simulation-form .value-headline-kkb{
+  font-size: 1.6rem;
+}
+.o-simulation-form .label-kkb{
+  font-size: 1.4rem;
+}
+.o-simulation-form .font-medium-kkb{
+  font-size: 1.6rem !important;
+}
+.o-simulation-form .label-tahun-kkb{
+  position: relative;
+  padding-left: 2rem;
+}
+.o-simulation-form .modal {
+  z-index: 1040;
+}  
+@media (max-width: 767.98px) {
+  .o-simulation-form header img{
+    top: -10px;
+  }
+  .o-simulation-form header p{
+    top: -2px;
+  }
+  .m-input-slider .value-text .value.input-editable{
+    position: relative !important;
+  }
+  .o-simulation-form .input-editable{
+    pointer-events: auto !important;
+  }
+  .o-simulation-form .pointer-none{
+    pointer-events: none !important;
+  }
+  .o-simulation-form .label-value-kkb{
+    position: absolute !important;
+    left: 0px;
+    padding-top: 2px;
+  }
+  .o-simulation-form .label-tahun-kkb{
+    position: absolute !important;
+    left: 13px;
+    padding-top: 3.5px;
+    padding-left: 0px;
+  }
+  .o-simulation-form .d-inline-obliga{
+    display: inline;
+  }
+  .o-simulation-form .mt-20-obliga{
+    margin-top: 20px;
+  }
+  .o-simulation-form .label-value-obliga{
+    position: absolute !important;
+    top: 3px;
+    left: 0px;
+  }
+
+  .o-simulation-form .d-inline-reksa{
+    display: inline;
+  }
+  .o-simulation-form .mt-20-reksa{
+    margin-top: 20px;
+  }
+
+  .o-simulation-form .d-inline-kkb{
+    display: inline;
+  }
+  .o-simulation-form .mt-20-kkb{
+    margin-top: 20px;
+  }
+  .o-simulation-form .label-value-reksa{
+    position: absolute !important;
+    top: 3px;
+    left: 0px;
+  }
+
+  .o-simulation-form .label-value-tahaka{
+    position: absolute !important;
+    top: 3px;
+    left: 0px;
+  }
+  .o-simulation-form .d-inline-tahaka{
+    display: inline;
+  }
+  .o-simulation-form .mt-20-tahaka{
+    margin-top: 20px;
+  }
+  .o-simulation-form .subheadline-kkb{
+    font-size: 1.6rem;
+  }
+  .o-simulation-form .value-headline-kkb{
+    font-size: 1.4rem;
+  }
+  .o-simulation-form .label-kkb{
+    font-size: 1.2rem;
+  }
+  .o-simulation-form .jenis-nasabah-kkb{
+    margin-top: 8px; }
+  .o-simulation-form .head-tabel-cicil {
+    font-size: 13px; }
+  .o-simulation-form .value-estimasi {
+    font-size: 23px; }
+  .o-simulation-form .title-select-reksa {
+    margin-top: 15px; }
+  .o-simulation-form .text-dana {
+    margin-top: 15px; }
+  .o-simulation-form .text-target-investasi {
+    margin-top: 0px; }
+  .o-simulation-form .hero-banner p {
+    font-size: 20px; }
+  .o-simulation-form .modal {
+    padding-top: 65px !important; }
+  .o-simulation-form .modal-content {
+    width: 100% !important;
+    padding: 15px !important; }
+  .o-simulation-form .suku-bunga-tahaka-text {
+    padding-top: 35px;
+    padding-bottom: 5px; }
+  .o-simulation-form .koma-percent-reksa-dana {
+    right: 0px; }
+  .o-simulation-form .koma-percent-obligasi {
+    right: 0px; }
+  .o-simulation-form .modal-kkb-pembeli{
+    width: 100%;
+  }
+  .o-simulation-form .hero-banner, .o-simulation-form .modal-tahaka, .o-simulation-form .modal-reksa, .o-simulation-form .modal-kkb-pembeli, .o-simulation-form .modal-kkb, .o-simulation-form .modal-kmk, .o-simulation-form .button-simul-tahaka, .o-simulation-form .button-unduh-simul, .o-simulation-form .button-kkb, .o-simulation-form .select2-container {
+    width: 100%; } }
+
+/* new adjust kkb */
+.o-simulation-form .top-kkb{
+  top: 16px !important;
+}
+.o-simulation-form .jangka-waktu-kkb {
+  margin-top: 0px !important; }
+.o-simulation-form .jangka-waktu-kkb-2 {
+  margin-top: 32px !important; }
+  @media (max-width: 767.98px) {
+    .o-simulation-form .top-kkb{
+      top: -12px !important;
+    }
+    .o-simulation-form .jangka-waktu-kkb {
+      margin-top: 15px !important; }
+    .o-simulation-form .jangka-waktu-kkb-2 {
+      margin-top: 15px !important; }
+    .o-simulation-form .mt-20-kkb{
+      margin-top: 6px;
+    }
+  }

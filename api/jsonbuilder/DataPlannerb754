@@ -1,0 +1,2816 @@
+const dataPlanner = [
+  {
+    "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+    "itemid": "{76EB6B66-4762-4E5F-8856-5577EFCDE650}",
+    "text": "Pursuing education",
+    "icon": "a-system-icon-update icon-pendidikan",
+    "next": {
+      "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+      "itemid": "{51FF5BE8-573D-436F-8774-4D7923B8D3DA}",
+      "question": "What is your necessity?",
+      "options": [
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{EEA16DB0-A121-46C3-B7BF-5D009FD82BA0}",
+          "text": "Build a saving habit",
+          "icon": "a-system-icon-update icon-product-remittance-inward",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{AAF09B7D-BC7E-4FE8-B0FD-684194D32187}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2022/06/14/03/14/tips-menabung-harian-bulanan-dan-jangka-panjang",
+              "cta": "Saving daily, monthly, or long-term? Check out the tips here!",
+              "description": ""
+            },
+            "result": {
+              "description": "Besides being academically smart, you should also be financially smart. Start the habit of saving regularly, at least 10% of your income or pocket money.",
+              "title": "Time to Become a Financially Smart Student"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{7CA2F6D1-FC1F-413E-87B4-6EDDC5EB1B30}",
+                "description": "There are many types of savings accounts at BCA that you can choose from, based on your needs!",
+                "title": "Saving at BCA is super easy!",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{4A7D7654-8E42-4638-BDF1-94E200D00D4F}",
+                    "description": "Express your style by saving with BCA's Tahapan Xpresi. There are many card designs to choose from, complete with mobile banking facilities for easy transactions!",
+                    "title": "Tahapan Xpresi",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{42DC27F1-6D51-4F98-90E0-39F931A0370D}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/47CbYas"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{3EF3F44B-DD3B-466F-A6BA-C2F5CACC82CF}",
+                        "title": "Open your account",
+                        "link": "https://bca.id/47U9nZT"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{1E5AC201-A7FE-4612-8B7E-BD1CEE73C4CB}",
+                    "description": "Starting the habit of saving can be tough, but you're not alone because BCA's Tahapan Berjangka can help you build this habit with its auto-debit feature.",
+                    "title": "Tahapan Berjangka",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{7B9E3C8D-A4F6-4F3F-9F74-34EC6C890084}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XyEzch"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{60C60318-6AE5-4BB3-A30E-8F6EA2BFEC9E}",
+                    "description": "If you're looking to invest in foreign currencies, save for education plans or travel abroad, BCA's Poket Valas is your solution.",
+                    "title": "Poket Valas",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{3F70FBEE-A7FF-491C-A1E4-0A0BF480F948}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4ecUZOF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{ACDE7471-EDFB-4B8D-9047-44C7922A5445}",
+          "text": "Start investing early",
+          "icon": "a-system-icon-update icon-product-asuransi-grow",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{63DA9F96-6B6E-413B-91AA-D271A6145779}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{76EB6B66-4762-4E5F-8856-5577EFCDE650}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2022/06/22/03/06/pengertian-investasi-tujuan-jenis-dan-risiko-investasi",
+              "cta": "Before you start investing, it's important to understand the benefits you can gain and the risks you might face. Find out here",
+              "description": ""
+            },
+            "result": {
+              "description": "Did you know that the earlier you start investing, the greater the returns you can achieve to reach your life goals?",
+              "title": "Enjoy Learning while Investing to Achieve Your Dreams"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{0FEA6BA4-3CB4-4C84-8264-8E4ECCA43C31}",
+                "description": "There are various investment instruments at BCA that you can choose from according to your needs.",
+                "title": "Investing is Easy and Simple with Welma on myBCA!",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{26CE5112-379A-406C-AB54-ACEB7B756419}",
+                    "description": "If you prefer stable and secure returns guaranteed by the government, Bonds can be your choice.",
+                    "title": "Bonds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{C3F8F6E4-81B4-45DC-8E18-8CD0C5F97CBB}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XF8FLj"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{093128D5-04B5-41AF-884F-606FCD825E52}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4ei6Qei"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9AC54658-FA61-4147-951E-F2F1C4A8D70D}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{01AAC422-9291-461B-800B-CDE9C921AE1B}",
+                    "description": "If you want to start investing with a smaller amount, Mutual Funds are the solution. This product is managed and monitored by Professional and experienced Investment Managers.",
+                    "title": "Mutual funds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{F9C05820-9A0A-489F-B54D-CA74E19B8AA5}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4gEqXoG"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{7746F0AC-71A6-4FE2-8060-BF7C756F419F}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/3ZHzxwD"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{0CCBACDD-295D-44C9-A804-E8E8E47B00C9}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{C9564B36-E68B-41DC-9D85-EBAE66F7E9F6}",
+                    "description": "For those interested in compound investing or the concept of compound interest, e-Deposito is your option",
+                    "title": "e-Deposito",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{4DFCEEE9-2E57-40AF-93ED-19BEEAA2DF0A}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TESCfe"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{5FD1F0DA-08F8-47E0-93FC-DA398EA0DE09}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4efRk2A"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{4BA932BD-C0CA-4918-AB4A-C12AC9423D93}",
+                        "title": "Open account with myBCA",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{9694713A-1D73-4B5F-A9E5-CAD5656D3339}",
+          "text": "Engage in your Hobby or Shopping",
+          "icon": "a-system-icon-update icon-benefit-e-banking",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{7BDE78D5-C3A5-497A-B177-1E042FEC2F77}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{76EB6B66-4762-4E5F-8856-5577EFCDE650}",
+              "button_label": "Check it out",
+              "button_link": "https://bca.id/3XSwnox ",
+              "cta": "Check out the latest promos here!",
+              "description": ""
+            },
+            "result": {
+              "description": "Student life is the most fun time. Treating yourself and hanging out with friends is easier with BCA's banking facilities.",
+              "title": "Stay Cool and Have Fun"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{432D0638-3877-4936-9E1D-DEA4F205DC44}",
+                "description": "Enjoy your favorite hobbies with various BCA e-Banking features. There are plenty of exciting promos you can enjoy.",
+                "title": "Fulfill Your Lifestyle Needs with BCA e-Banking",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{BCE4E081-01B6-49BF-884A-A2C56D80A635}",
+                    "description": "Simplify your banking experience with one Single User ID to access all your banking accounts.",
+                    "title": "myBCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{157CA314-D432-4E3D-BF26-5BBBB1C3C2DE}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MSCBP0"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{D2596609-B2E0-4535-B3B5-B038A7C02B78}",
+                        "title": "Download",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+    "itemid": "{AF1EC48B-35BB-42A5-8D2C-B2DC69E772B7}",
+    "text": "Building your career",
+    "icon": "icon-hubungan-investor",
+    "next": {
+      "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+      "itemid": "{FAB63A9D-62D2-470C-ACC1-F82755C2DA6C}",
+      "question": "What is your necessity?",
+      "options": [
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{4D10C3F8-516B-4B41-ADEF-CB7CF3530529}",
+          "text": "The ease of transaction",
+          "icon": "a-system-icon-update is-large icon-benefit-e-banking",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{E753C777-F099-4CEF-A73D-8FAD970AB07A}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{AF1EC48B-35BB-42A5-8D2C-B2DC69E772B7}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/awas-modus/2022/12/07/10/38/waspada-install-aplikasi-bca-lewat-link-penipuan",
+              "cta": "Want transactions to be easier but end up getting scammed by installing from a fake link?",
+              "description": ""
+            },
+            "result": {
+              "description": "BCA’s secure and practical banking services are ready to support your daily transaction needs amidst the busyness of work or other routines.",
+              "title": "Transaction Convenience for Daily Activities"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{54A2FDE9-6299-4908-AE00-8E01686979D9}",
+                "description": "With easy access to various services, through BCA you can manage payments, shopping, and investments seamlessly.",
+                "title": "Transaction Solutions for Various Needs",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{A67BE120-0D03-4D92-B66F-27535D18D8B8}",
+                    "description": "Manage your salary, transfer funds, pay bills, invest, and access multiple accounts through the myBCA app. Enjoy the convenience of transactions in the palm of your hand.",
+                    "title": "myBCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{1AC32CD8-E387-4FFF-9910-397B8AABFC13}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MSCBP0"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9DDDE8B4-3E4C-487B-B57C-EE2CA557C283}",
+                        "title": "Download",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{005BF0B3-6F6E-4E23-B0A5-E72FE71ECB6C}",
+                    "description": "With just one click, online shopping or paying bills becomes easier and faster.",
+                    "title": "OneKlik",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{4496AC87-2BCF-4545-8601-742B508057EC}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/47FGyQp"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{6E8F43D8-B624-4248-9EE6-BAAEAB19A504}",
+          "text": "Future investment",
+          "icon": "a-system-icon-update icon-product-investasi-reksadana",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{70170E6B-12B6-42FF-8A0C-A65DA16A6B6F}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{AF1EC48B-35BB-42A5-8D2C-B2DC69E772B7}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2022/06/22/03/06/pengertian-investasi-tujuan-jenis-dan-risiko-investasi",
+              "cta": "Before starting an investment, it's wise to understand the benefits you can gain and the risks you might face.",
+              "description": ""
+            },
+            "result": {
+              "description": "Make more solid financial plans by taking advantage of various investment options for a stable financial future.",
+              "title": "Achieve your goals with investment"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{BCEA3C00-00FA-4647-99B1-A6D52D94DAA7}",
+                "description": "BCA has a variety of investment products that  to fulfill your life goals.​ Try Welma feature in myBCA apps so you can do online investment, anytime and anywhere.",
+                "title": "Invest now with BCA",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{71B0AFB6-522F-45DB-9E25-720CCDE235CB}",
+                    "description": "Safe investments that offer stable returns can be achieved by investing in Bonds through Welma on myBCA.",
+                    "title": "Bonds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{D1F8DFCB-9CE6-4063-91E0-75B5366A286D}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XF8FLj"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{BAF8B1D3-5E7A-4BB2-A4F1-40E0C4DCC71A}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4ei6Qei"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{725E5272-C19D-401B-9705-BB9BD3EF741F}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{6EAAE24E-60DB-4262-BE3F-76F374DEF58E}",
+                    "description": "Want to invest with a smaller amount? Mutual Fund investments can be a hassle-free solution, especially as your funds will be managed by Professional Investment Managers.",
+                    "title": "Mutual funds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{238B41DD-C4EA-4D7D-A933-02F6726644EB}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4gEqXoG"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{B3508216-5815-49E7-81F6-7B0AA29285A1}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/3ZHzxwD"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{2771215E-B3EE-442E-A05C-2A7DB25B2D7E}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{D5AFC0D3-718A-4308-A0D2-46095AE77B7B}",
+                    "description": "Looking for long-term and safe investments? BCA's e-Deposito can be the key to securing your funds.",
+                    "title": "e-Deposito",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{670FB114-1525-4F6D-BAED-EBC7800102DF}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TESCfe"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{C1F6FD5A-B067-4CF6-A18C-E8201ABD8F4F}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4efRk2A"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{36A5695E-B96C-4F3E-9074-213C7F749FE6}",
+                        "title": "Open account with myBCA",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{81A0ED6F-A491-4A4B-9AE0-C33099B704D1}",
+          "text": "Supporting lifestyle",
+          "icon": "a-system-icon-update icon-product-remittance-inward",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{4375F1BE-275D-4296-BDC9-A414DE10E4CB}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{AF1EC48B-35BB-42A5-8D2C-B2DC69E772B7}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/promo-bca",
+              "cta": "Check out discounts and promos for your favorite lifestyle products at BCA.",
+              "description": ""
+            },
+            "result": {
+              "description": "Lifestyle is not just about daily needs but also about creating fulfilling and enjoyable experiences",
+              "title": "Maximize Your Lifestyle with Easy Transactions"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{5BB40717-35C3-4C20-8BB1-6E046FD67A49}",
+                "description": "From hobbies to vacations, enjoy various promos and easy transactions with BCA to support your lifestyle",
+                "title": "Meet Your Lifestyle Needs with BCA",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{A4F2D5F7-BFB7-43F0-A814-5FD5C290D17B}",
+                    "description": "Have many hobbies or love travelling? Get a BCA Credit Card to take advantage of a variety of attractive promos.",
+                    "title": "BCA Credit Card",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{1F06FB11-BAAE-4086-A4F3-DC3A22AACA97}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MVrrc3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{DDF5799E-DDA0-477E-A7B8-D0DB1DC1A260}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{9C8DDDAE-7A69-45E1-9BF2-BB9D90ACED71}",
+                    "description": "From convenient payment when hanging out with friends to investing to realize your dreams, it’s all complete with myBCA.",
+                    "title": "myBCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{11AC9130-60A5-4EEC-A7C9-A2414F1ABE74}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MSCBP0"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{063F5459-554A-4B4A-A143-0793BD5DC62E}",
+                        "title": "Download",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{91B95598-2B2C-4BAB-B9B5-F8FCCB5CEEEB}",
+          "text": "Buy vehicle",
+          "icon": "a-system-icon-update icon-product-kkb-pembelian-mobil",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{F959AEF3-883A-45C8-93E8-098FFD1443A1}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{AF1EC48B-35BB-42A5-8D2C-B2DC69E772B7}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2023/02/03/09/26/cara-menabung-untuk-membeli-mobil-impian",
+              "cta": "Check out tips on how to save for your dream car.",
+              "description": ""
+            },
+            "result": {
+              "description": "Having a personal vehicle provides convenience and ease in carrying out daily activities, especially for those with high mobility",
+              "title": "A New Vehicle to Increase Mobility and Comfort"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{56D8F84C-4FCE-450C-A4DE-2782DDB6F4B1}",
+                "description": "Enjoy easy processes in purchasing and owning a vehicle that suits your needs with BCA",
+                "title": "Get Your Dream Vehicle with BCA",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{D7A8F594-8C98-4EC0-B6DD-E5F6D77D2D1B}",
+                    "description": "Need a car for work or hanging out with friends? BCA's Kredit Kendaraan Bermotor (KKB) is the solution",
+                    "title": "KKB",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{49E9C981-443F-4849-AE73-0B5AA2DF286D}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4ezMVqG"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{1F8BD70C-ACE7-4C00-8A9B-A00B1BD8454A}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/3N5frVs"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{7996A28E-DEA1-4414-BB92-6CCD6097D58C}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/4h0aVp3"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{9F55D1F7-32A1-4036-9D42-BBB6C5284815}",
+                    "description": "Want to have faster mobility for your daily activities? BCA's Kredit Sepeda Motor (KSM) can help you own your dream motorbike",
+                    "title": "KSM",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{3A1D4DC5-2B88-4FCE-B6FF-C73759CD18F5}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3ZAzp27"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{C0F9F001-DDFF-4523-A42C-C71E870626B2}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/43y3Ap2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{CDA1DEAC-CD5E-4732-AD1A-79B289EBC42E}",
+          "text": "Life and asset protection",
+          "icon": "a-system-icon-update icon-product-asuransi-protection",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{B02BAC2B-466D-4922-A0B2-FE997F15B29A}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{AF1EC48B-35BB-42A5-8D2C-B2DC69E772B7}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2022/06/22/08/58/asuransi-tradisional-dan-asuransi-unit-link-apa-sih-bedanya",
+              "cta": "Traditional insurance or Unit-linked insurance? Check out the differences.",
+              "description": ""
+            },
+            "result": {
+              "description": "By choosing the right insurance products, you can carry out your daily routines more comfortably and safely, as you’re protected from life risks that may arise",
+              "title": "Protect Yourself and Your Assets for a More Peaceful Life"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{0BCD7AFB-3AEE-48A5-843D-942E714B0C78}",
+                "description": "Protect your health, vehicle, and property according to your family and your needs with insurance solutions from BCA",
+                "title": "Protection Choices Tailored to Your Needs and Comfort",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{930C0CE6-E8CA-403D-888B-08B947FE37E2}",
+                    "description": "Protect the future of yourself and your loved ones with premium costs that can be tailored to your needs.",
+                    "title": "Life insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9EA39122-CFEE-4A0D-8ECA-89E449F273C8}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XTftWP"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{953B1995-4B58-4C08-AF30-198A8D9428B7}",
+                    "description": "Health protection designed to suit your needs, with abundant benefits and easy claims.",
+                    "title": "Health insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8229CA2D-5018-4F1A-9C06-506B437B55F2}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4evRpyL"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{5BE664A6-18E3-4D29-A529-D766E17E279C}",
+                    "description": "Protection against accidents or mishaps while working",
+                    "title": "Personal accident insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{865C935D-257C-463B-8B9E-8E464982A804}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4evRqmj"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{1E7F9081-7BF6-40B9-9B50-F003C0E2A3F8}",
+                    "description": "Protection against the risk of damage and loss to motor vehicles with premiums tailored to your needs",
+                    "title": "Auto insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{BF097DF2-1839-4633-B08E-5B0D46D9B360}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XSwzEh"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{48487652-1E17-483F-A0AF-69B36D94F468}",
+                    "description": "Make your trips safer and more comfortable with Travel Insurance, offering affordable premiums and comprehensive benefits.",
+                    "title": "Travel insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{2AC6CFBF-3629-47F1-B875-B8F7ABBD6A22}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3BfseCh"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{104F064A-12B9-4F75-A4B3-D44BD3E7C396}",
+          "text": "Buy a house",
+          "icon": "a-system-icon-update icon-product-kpr-pembelian-pertama",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{435E5BF1-759F-406D-800D-04AEA505472B}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{AF1EC48B-35BB-42A5-8D2C-B2DC69E772B7}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2023/02/23/09/25/kapan-waktu-yang-tepat-untuk-membeli-hunian",
+              "cta": "When is the right time to buy a home? Find out now.",
+              "description": ""
+            },
+            "result": {
+              "description": "Having a comfortable home that meets your needs is essential to support a better lifestyle.",
+              "title": "An Ideal Home for a More Comfortable Life"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{4CA88349-51DC-4B65-B209-C3B149C99B5D}",
+                "description": "Enjoy ease in the process of purchasing your dream home with solutions that suit your needs, with BCA",
+                "title": "Owning a Home is not Just a Dream; Make it a Reality with BCA",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{4C193A65-4F34-4ED8-93E7-4ED255C95AA3}",
+                    "description": "Looking for a house or an apartment as a permanent home? BCA's Kredit Pemilikan Rumah (KPR) can be the solution to realizing your home with light and flexible installments.",
+                    "title": "KPR BCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{C02B1BD3-908D-4202-A3CB-21476AABBA76}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4do5Off"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{98B324FC-0997-4845-BA42-02FCE1DFF037}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4ddSFp3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{CF1E783D-8F5C-49AE-9446-F166EBFA6C38}",
+                        "title": "Consult now",
+                        "link": "https://bca.id/3Ob5ZkO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+    "itemid": "{F43C9E17-07DD-4A7F-A049-0ECA0137057C}",
+    "text": "Own a business",
+    "icon": "a-system-icon-update icon-product-kredit-usaha-kredit-usaha-rakyat",
+    "next": {
+      "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+      "itemid": "{1B76BA8E-598B-4838-9797-4C35CDA7E780}",
+      "question": "What's your necessity?",
+      "options": [
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{2BA6C6C3-290F-47C5-A30B-62361BB22B1D}",
+          "text": "Obtaining business loan",
+          "icon": "a-system-icon-update icon-product-riset-ekonomi-tentang",
+          "next": {
+            "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+            "itemid": "{9E2EF182-F22E-4C39-B5A4-983A4D12F8FA}",
+            "question": "Choose what you need the most",
+            "options": [
+              {
+                "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+                "itemid": "{27D31301-9108-452F-BD26-E06507BCC273}",
+                "text": "Working Capital (Stocks, etc)",
+                "icon": "a-system-icon-update icon-product-hubungan-laporan-keberlanjutan",
+                "next": {
+                  "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+                  "itemid": "{39BEE6A4-6972-4589-A787-50FCB5880146}",
+                  "cta": {
+                    "back": "Back to previous page",
+                    "target": "{2BA6C6C3-290F-47C5-A30B-62361BB22B1D}",
+                    "button_label": "Check it out",
+                    "button_link": "https://bca.id/3ZFhDuG",
+                    "cta": "Check out these tips to maximize your working capital loan application!",
+                    "description": ""
+                  },
+                  "result": {
+                    "description": "Without sufficient capital, even the best-planned business strategies may not run smoothly.",
+                    "title": "Business Development Strategy"
+                  },
+                  "timeline": [
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{7AB11800-659A-4BCC-8BA8-8F115FABC077}",
+                      "description": "",
+                      "title": "Loan Limit 10 Million – 300 Million",
+                      "type": "product",
+                      "cards": [
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{2BF1C9BC-05ED-4D63-B449-D6962367D0C5}",
+                          "description": "If you need capital assistance but don't have enough collateral, Kredit Usaha Rakyat (KUR) is available with competitive interest rates and low installments.",
+                          "title": "KUR (Kredit Usaha Rakyat)",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{E8F7ADD6-F4EC-4E76-B408-14E27BEF27D4}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4gCibHz"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{EED75F64-42CE-4219-B016-3501A8B620CF}",
+                      "description": "",
+                      "title": "Loan Limit 300 Million – 500 Million",
+                      "type": "product",
+                      "cards": [
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{DFDA0F9B-52BC-47AF-A395-D508778B01FC}",
+                          "description": "If you're looking for alternative financing to suit your needs, Kredit Usaha (KU) could be worth considering.",
+                          "title": "Kredit Usaha",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{6C6A8B1D-CE9E-4F72-A1EF-650FF465A8AF}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3zzOruo"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{DB84F3B2-52E3-46E9-9B19-D56DD49E7A48}",
+                              "title": "Apply",
+                              "link": "https://bca.id/43pfzF1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{51236A82-A4B0-476A-961F-75B80B960864}",
+                      "description": "",
+                      "title": "Loan Limit above 500 Million",
+                      "type": "product",
+                      "cards": [
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{C371F0CD-C768-48C9-8FDA-4BE8632F6FB8}",
+                          "description": "If you're looking for alternative financing to suit your needs, Kredit Usaha (KU) could be worth considering.",
+                          "title": "Kredit Usaha",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{91493AA3-9069-487C-BB23-A43A3D57A341}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3zzOruo"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{91FB3E0D-E6E0-48D6-A140-0B1EE19F2C3E}",
+                              "title": "Apply",
+                              "link": "https://bca.id/43pfzF1"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{757722F0-BA2B-42F8-BA58-4F277578AC67}",
+                          "description": "If you need capital assistance, asset investments, various business expenses and obligations, and other business needs, Kredit Multiguna Usaha could be a solution.",
+                          "title": "Kredit Multiguna Usaha",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{742187AE-4618-46F4-A0FD-A6FCD98F4961}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/47HhjNO"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{08CDECB6-8245-483E-B489-6647578FB030}",
+                              "title": "Simulation",
+                              "link": "https://bca.id/47IdIiH"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{681436F5-9B5E-4C3D-BE1C-92176C7032CC}",
+                              "title": "Apply",
+                              "link": "https://bca.id/43pfzF1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{5F451D02-739A-4803-8CB7-E4B041A6A482}",
+                      "description": "BCA can be the right choice for those who need business capital for expansion or development, with various types of financing tailored to your needs.",
+                      "title": "Grow Your Business with BCA!",
+                      "type": "product"
+                    }
+                  ]
+                }
+              },
+              {
+                "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+                "itemid": "{E4BDD23A-7A5C-40F0-976A-B91278C5411A}",
+                "text": "Purchasing Business Asset (Machinery, Warehouse, Vehicles, etc)",
+                "icon": "a-system-icon-update icon-product-kredit-usaha-kredit-lokal",
+                "next": {
+                  "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+                  "itemid": "{1F81F0BE-0C5E-4041-9EC3-3B94011FD065}",
+                  "cta": {
+                    "back": "Back to previous page",
+                    "target": "{2BA6C6C3-290F-47C5-A30B-62361BB22B1D}",
+                    "button_label": "Check it out",
+                    "button_link": "https://bca.id/3ZFhDuG",
+                    "cta": "Check out these tips to maximize your working capital loan application!",
+                    "description": ""
+                  },
+                  "result": {
+                    "description": "To expand a business, you'll certainly need many supporting assets such as property, machinery, vehicles, etc.",
+                    "title": "Preparing Business Supporting Assets"
+                  },
+                  "timeline": [
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{9093760C-8E66-4F56-8480-DF2126FB53C9}",
+                      "description": "BCA is the right choice for developing your business with various types of financing that can be tailored to your needs.",
+                      "title": "Develop Your Business with BCA!",
+                      "type": "product",
+                      "cards": [
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{73FCF08B-E018-4BAF-9A48-F296236B8E2A}",
+                          "description": "Kredit Investasi is ideal for those needing to purchase, build, or rejuvenate fixed assets like commercial properties (warehouses, offices, shop-houses), machinery, and vehicles.",
+                          "title": "Kredit Investasi",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{F011469F-2709-46E2-8EF9-3C28132B176E}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3ZAOtfV"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{DE91305F-188A-4F13-A605-8B32FB63BDE9}",
+                              "title": "Simulation",
+                              "link": "https://bca.id/3zubMxv"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{E19BAAAF-8B09-4E2C-AA85-E3184A4E6E08}",
+                              "title": "Apply now",
+                              "link": "https://bca.id/43pfzF1"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{CAC163E4-CC2A-40E6-AC73-FB194A4E90A3}",
+                          "description": "Kredit Tempat Usaha is perfect for those seeking financing solutions for commercial properties like shop-houses, warehouses, and offices.",
+                          "title": "Kredit Tempat Usaha",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{6DD7C3C7-8BBB-462B-A455-70D897459114}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3BuhU9p"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{47A57F65-501F-4439-ADD9-BDE75C3AF74A}",
+                          "description": "Kredit Kendaraan Bermotor (KKB) is suitable for financing new or used cars for business needs.",
+                          "title": "KKB (Kredit Kendaraan Bermotor)",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{0F10AE25-88BD-4AEC-AC76-29F08C3EB860}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4ezMVqG"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{965C2FD4-4B7A-45E5-8CD4-65FF291FE118}",
+                              "title": "Simulation",
+                              "link": "https://bca.id/3N5frVs"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{221C6B53-5B53-426F-B2ED-FD2628B87C57}",
+                              "title": "Apply",
+                              "link": "https://bca.id/3XQ9LTW"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{24A5356D-9D3D-48AA-9D6E-5A429E9D9905}",
+          "text": "The ease of managing business",
+          "icon": "a-system-icon-update icon-product-tresuri-dan-kustodian-derivatives",
+          "next": {
+            "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+            "itemid": "{A83F9B1C-A194-4925-A18A-88E080DF3A0B}",
+            "question": "Choose what you need right now",
+            "options": [
+              {
+                "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+                "itemid": "{990677FD-ABEE-4E66-8973-2ED5F95A6A23}",
+                "text": "Payment Transaction",
+                "icon": "a-system-icon-update icon-product-remittance-outward",
+                "next": {
+                  "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+                  "itemid": "{8728AA87-034D-4889-9750-2F1474B3FE60}",
+                  "cta": {
+                    "back": "Back to previous page",
+                    "target": "{24A5356D-9D3D-48AA-9D6E-5A429E9D9905}",
+                    "button_label": "Check it out",
+                    "button_link": "https://bca.id/3BkJE0e",
+                    "cta": "Want to know how to make employee salary payment easier with KlikBCA Bisnis Payroll?",
+                    "description": ""
+                  },
+                  "result": {
+                    "description": "It’s time to shift from manual business transactions to an integrated transaction system. Business activities can be conducted quickly, anytime and anywhere, according to your needs.",
+                    "title": "Integrated Transaction Systems are a Must for Modern Business"
+                  },
+                  "timeline": [
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{149FAD84-B508-4B67-B77A-DDEA35706C89}",
+                      "description": "BCA offers integrated business payment transaction solutions for all your business needs.",
+                      "title": "Smoother Transactions with BCA Systems!",
+                      "type": "product",
+                      "cards": [
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{D57764BB-3114-4566-AE3A-5B17C67A22BB}",
+                          "description": "Make business and operational transactions easier online with KlikBCA Bisnis.",
+                          "title": "KlikBCA Bisnis",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{DA89EE05-4B00-4036-BC7E-3F0600B46A07}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4gEv7N6"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{63A6AF85-EA33-4F4A-BAA9-543B595AAE9F}",
+                          "description": "No more hassle with employee payroll using Payroll BCA services.",
+                          "title": "Payroll",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{DDB13133-B83A-4FF2-AE08-B020BE75208C}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3XWoU7P"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{ACC273C6-7BEC-4728-902C-2DD17CCCBE65}",
+                          "description": "Pay company operational bills like electricity, water, and BPJS quickly, practically, and securely through KlikBCA Bisnis.",
+                          "title": "Bill Payment",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{DB7A97C2-B32E-45DA-AF12-CB3E2F1CD883}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4eAnHsq"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{5144C7F8-1FA3-42BD-AC40-888AA40289E0}",
+                          "description": "Transfer funds from one or more source accounts to other accounts at BCA, other banks, or abroad easily with Multi Auto Transfer.",
+                          "title": "Multi Auto Transfer",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{4D549E72-0726-432D-8813-7912C54EA8FB}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/47IbX4W"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{AD13CD34-BA73-4820-B3E6-BDCDFBA59291}",
+                          "description": "Make company business transactions more convenient with the BCA Visa Corporate credit card, which comes with many benefits.",
+                          "title": "BCA Visa Corporate",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{2D0B8479-45D0-434B-8716-A7908983B2A2}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3XHLMH2"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{34C3A3ED-8643-48CD-B072-CB426CDE54AE}",
+                              "title": "Apply",
+                              "link": "https://bca.id/3XYQmSH"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{8D16ABFA-93EC-4440-B2E4-32BF5B40D00C}",
+                          "description": "Pay business taxes more practically and directly through KlikBCA Bisnis without the hassle of going to the Tax Office.",
+                          "title": "e-Billing Pajak",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{15005D39-6A3C-4078-9A48-EFB0FD8CE4F9}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3TI3AAE"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+                "itemid": "{839B120F-D685-4528-AEB3-C40238EC45B7}",
+                "text": "Collection",
+                "icon": "a-system-icon-update icon-product-remittance-worker",
+                "next": {
+                  "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+                  "itemid": "{B60BB003-C3BB-4DF9-8A88-56D1539F8F94}",
+                  "cta": {
+                    "back": "Back to previous page",
+                    "target": "{24A5356D-9D3D-48AA-9D6E-5A429E9D9905}",
+                    "button_label": "",
+                    "button_link": "",
+                    "cta": "Let’s find out the products that can help in your business operations",
+                    "description": ""
+                  },
+                  "result": {
+                    "description": "It's time to simplify and automate payment collections from your customers so that your business transaction records become more accurate.",
+                    "title": "Payment Collection Made Easy"
+                  },
+                  "timeline": [
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{45466B89-6A93-43CB-9C3B-FD752A06024C}",
+                      "description": "BCA offers a variety of payment collection facilities you can choose based on the needs of your shop or business unit.",
+                      "title": "Various Payment Collection Facilities at BCA",
+                      "type": "product",
+                      "cards": [
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{E2604AB0-A848-447C-AD89-1D2BC05005D5}",
+                          "description": "Use QRIS for direct, cashless payments from various QR-based applications.",
+                          "title": "QRIS Bisnis",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{666DA0BA-AA0D-4DC0-81C4-5A4D3DDABC5A}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4eBPE3c"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{F209DF10-E4C3-4427-950E-282BB4C8CC15}",
+                              "title": "Apply via Merchant App",
+                              "link": "https://bca.id/3zo2XW3"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{EF33EEA2-CBF8-46EC-B7C6-F84176517B5C}",
+                          "description": "Make it easier to identify customer payments using Virtual Accounts so transactions can be faster and more efficient.",
+                          "title": "Virtual Account",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{9DC63738-489C-4ECF-893D-5208D59F68C1}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4eekVcw"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{45B64E80-A175-4544-B53B-B673BB282BE0}",
+                          "description": "Submitting applications, checking transaction reports, and adding BCA EDC machines can be done easily with the Merchant BCA application.",
+                          "title": "Merchant EDC",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{697DC099-0B77-47C3-83B4-9E2835B1C77D}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4eCHnf9"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{B5510CD1-B3DB-457A-9587-AB4547B176B0}",
+                              "title": " Apply via Merchant App",
+                              "link": "https://bca.id/3zo2XW3"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{1B18B210-7E3F-41B6-B07D-171C29F3E603}",
+                          "description": "Have many debtors to collect from at once? Use the Multi Auto Collection facility, allowing you to collect payments with just one transaction.",
+                          "title": "Multi Auto Collection",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{7BC7CBCD-A1E9-4041-B5C3-0C3715A87C03}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4gCiC4F"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{90CCF129-FDBD-481B-BF0F-927171F8ED47}",
+                          "description": "Need to remind customers to pay every month? Use BCA's Autodebet, as collections can be done automatically, directly from your customer’s account.",
+                          "title": "Autodebet",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{837D7017-169B-4080-A197-11F5465F62FC}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3TDdcML"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{E53B47C5-E7C3-4EAD-AFBD-6675013493D6}",
+          "text": "Expanding the business exposure",
+          "icon": "a-system-icon-update icon-product-tresuri-dan-kustodian-visi-misi",
+          "next": {
+            "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+            "itemid": "{46D317B6-3AD1-4A2D-ADB2-0EEED41F0FD7}",
+            "question": "Choose what you need right now",
+            "options": [
+              {
+                "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+                "itemid": "{65512030-3BBF-40BF-B681-F092B78CA438}",
+                "text": "Business Cooperation Service",
+                "icon": "a-system-icon-update icon-benefit-free",
+                "next": {
+                  "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+                  "itemid": "{83207CFD-B869-4BEF-A402-C7B7C1CE6ECA}",
+                  "cta": {
+                    "back": "Back to previous page",
+                    "target": "{E53B47C5-E7C3-4EAD-AFBD-6675013493D6}",
+                    "button_label": "Check it out",
+                    "button_link": "https://bca.id/3N4wSFF",
+                    "cta": "Here are some tips to accelerate your business with modern strategies!",
+                    "description": ""
+                  },
+                  "result": {
+                    "description": "One way to grow your business is by creating attractive promotions and collaborating with third parties to broaden your business reach.",
+                    "title": "Expand Your Business Potential with Modern Promotions and Partnerships"
+                  },
+                  "timeline": [
+                    {
+                      "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                      "itemid": "{AEA08F89-96DB-4B61-AF69-B5366DE3A830}",
+                      "description": "There are several collaboration programs with BCA that you can join!",
+                      "title": "Expand Your Business Reach with BCA",
+                      "type": "product",
+                      "cards": [
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{8EA64C96-90D4-4D4F-8F55-206D08740758}",
+                          "description": "Special programs from BCA to support those with a passion for advancing the local industry and the creative economy in Indonesia. Join now!",
+                          "title": "BCA Bangga Lokal",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{27FFB92B-C623-4AA3-9A32-82FAD1F4270D}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/4gBGHbT"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{67F2B8A6-DFE8-4132-B6A3-68B0DF9C01D2}",
+                              "title": "Apply",
+                              "link": "https://bca.id/4elPugE"
+                            }
+                          ]
+                        },
+                        {
+                          "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                          "itemid": "{308BD5B8-3E8B-4E9A-ABB1-C46FE1903274}",
+                          "description": "Especially for the JADETABEK area, BCA has a promotion program to increase your business exposure across various BCA media. Let's participate!",
+                          "title": "Program Promosi BCA",
+                          "actions": [
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{A55773BC-1D6D-4EFF-9763-8DC2713AF647}",
+                              "title": "Learn more",
+                              "link": "https://bca.id/3ZJ01he"
+                            },
+                            {
+                              "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                              "itemid": "{85731268-06DB-4CF0-BB4C-9AEAC10559AD}",
+                              "title": "Apply",
+                              "link": "https://bca.id/4eMjBh3"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+    "itemid": "{191935FD-4262-44DD-B9AA-C8147A44D79C}",
+    "text": "Starting a family",
+    "icon": "icon-korporasi-manajemen",
+    "next": {
+      "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+      "itemid": "{04B495D3-7355-410C-8DD4-4590A46ECBFF}",
+      "question": "What is your necessity?",
+      "options": [
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{EFE5EC89-D136-4104-935F-AFEAA20BE8E8}",
+          "text": "The ease of managing finance",
+          "icon": "a-system-icon-update is-large icon-benefit-e-banking",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{2CC2B292-07C7-4B30-AECE-72F4F0458594}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{191935FD-4262-44DD-B9AA-C8147A44D79C}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2020/12/30/10/06/4-Cara-Membangun-Keuangan-Lebih-Stabil",
+              "cta": "Want tips on better monthly money management to meet your family's daily needs?",
+              "description": ""
+            },
+            "result": {
+              "description": "There are many family needs that must be managed to ensure finances are not disrupted, such as paying home mortgage or vehicle installments, managing the shopping budget, and preparing children's education funds.",
+              "title": "Fulfilling Family Needs"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{EE568E34-6B3E-4B02-B661-F4E1DBDC2B28}",
+                "description": "BCA's banking services can help you complete all transactions quickly and easily.",
+                "title": "Financial Management Solutions from BCA",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{854B3D2C-66B6-41CB-912B-76487E9E42B5}",
+                    "description": "Have many family needs but don’t want your money management to be disrupted? BCA Credit Card is the solution.",
+                    "title": "BCA Credit Card",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{6699DFDC-6C59-415A-B60C-53F77E269ACA}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MVrrc3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9F64EF97-F8FD-406F-92B5-EC273BAC2805}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{58BA0913-44DB-45EE-B1D8-F19500784A60}",
+                    "description": "No more late monthly bill payments, because you can use BCA Autopay for scheduled payments.",
+                    "title": "Autopay BCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{6F0A95DF-A5E6-44CB-AC33-AAC8D66D70CC}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TREK1k"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{1FA412CB-66AC-4EE2-A2EB-E1581A9E7440}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/3DeA6BI"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{D5346F04-F62D-4091-8376-685C474FBFDE}",
+                    "description": "From paying monthly shopping bills to investing in an emergency fund for your family, everything can be done through the myBCA app.",
+                    "title": "myBCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{7691FED8-FC11-4616-98E0-B9365E12700D}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MSCBP0"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{E50E69F5-D45F-481F-99BD-0224C58D19D3}",
+                        "title": "Download",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{8F9821DE-ACA1-47DD-B596-DB66C5B93C01}",
+          "text": "Buying your dream home or vehicle",
+          "icon": "a-system-icon-update is-extra-large icon-product-kpr-pembelian-pertama",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{708644F9-40E2-43B3-A3B8-7DD50129345D}",
+            "cta": {
+              "back": "Back to previous",
+              "target": "{191935FD-4262-44DD-B9AA-C8147A44D79C}",
+              "button_label": "Check it out",
+              "button_link": "https://bca.id/4gLYHAd ",
+              "cta": "What are the things to consider when borrowing money from a bank?",
+              "description": ""
+            },
+            "result": {
+              "description": "Owning your dream home and vehicle is an important step for those who have a family.",
+              "title": "The Dream Home and Vehicle for Modern Family"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{632933FA-AD6A-46AC-A6FD-3560A2761DEC}",
+                "description": "BCA is here to support every step of your journey towards your dreams. From ease in applying for loans to various interest rates you can choose to suit your needs.",
+                "title": "Realize Your Dream Home and Car with BCA",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{934E3BBF-2919-4117-BEEE-144C6167F9B7}",
+                    "description": "Looking for your dream home or apartment? BCA's Kredit Pemilikan Rumah (KPR) can be a solution to realizing your dream home with light and flexible installments.",
+                    "title": "KPR",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{A573BCEE-BD3B-4900-BFA5-FC22952540EC}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4do5Off"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{5039B27B-700B-40DC-87A1-A7AB5F656923}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4ddSFp3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{BC585570-7079-43A2-B4E2-77815BD7F54E}",
+                        "title": "Consult now",
+                        "link": "https://bca.id/3Ob5ZkO"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{0CF30A88-D015-4ED1-A5BF-BE4A7BC5650B}",
+                    "description": "Looking for a car to travel with your family? BCA Kredit Kendaraan Bermotor (KKB) is ready to assist with light and stable financing",
+                    "title": "KKB",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{41C8D89B-CF5E-4EF2-8FA2-2E97DC49CDA0}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4ezMVqG"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{66CD2037-CD8A-48DB-A36F-63B5F0348B80}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/3N5frVs"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{40B4A851-6186-4A6E-9D0C-61F235279E44}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/4h0aVp3"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{2BDEB79B-1622-4725-921E-14F9798E34AA}",
+                    "description": "Want to buy your dream motorcycle for riding with friends? BCA Kredit Sepeda Motor (KSM) can help you with light installments and easy requirements.",
+                    "title": "KSM",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{18DF98E5-7313-45E3-9D83-E2DA967F6FAD}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3ZAzp27"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{43BDC51C-225C-432A-A066-1570D5C3C488}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/43y3Ap2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{A55D2C6B-34FB-4A3A-92D6-7EDBE92E786F}",
+          "text": "Home Furnishing /Renovation Needs",
+          "icon": "a-system-icon-update is-extra-large icon-product-reward-bca-kenali",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{BED6B84E-9674-4864-A596-61024A5D3853}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{191935FD-4262-44DD-B9AA-C8147A44D79C}",
+              "button_label": "Check it out",
+              "button_link": "https://bca.id/4dGiTRu",
+              "cta": "Want to know more tips and tricks for home renovations?",
+              "description": ""
+            },
+            "result": {
+              "description": "Having a comfortable home is every family’s dream. With BCA, you can make it the perfect place to spend precious time with your family.",
+              "title": "Build a Comfortable Home for Your Family"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{294BDBC5-8290-4F25-8A18-1B4639A31276}",
+                "description": "From buying furniture to renovations, BCA offers various facilities to make it easier, such as credit card installment features, renovation loans, and various attractive promotions.",
+                "title": "The Right Solution for Furnishing and Renovating Your Home",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{F99426F0-19EB-4468-B915-FD53A9C5CEC7}",
+                    "description": "Want to buy furniture or electronics to renovate and complete your home? Use the BCA Credit Card to enjoy installment features and earn BCA rewards for your transactions.",
+                    "title": "BCA Credit Card",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{E873C62A-391C-443A-8F06-1B954810DCC4}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XLAYYj "
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{28583E8D-0C33-480A-829B-A7C59ABF275C}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{B58530EC-0412-40B2-8675-9051DDDEC0C0}",
+                    "description": "Renovate your home without worries? You can do so with BCA KPR Renovasi, offering various interest rates and practical use.",
+                    "title": "KPR",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{C59C938E-111D-4604-AD19-E51C896DBC80}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4do5Off"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{05FA8937-9170-424E-9BA9-F3C5A1BB30DE}",
+                        "title": "Simulasi",
+                        "link": "https://bca.id/4ddSFp3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{631D0BAC-2DE3-4D29-B4BF-451C68742256}",
+                        "title": "Consultation",
+                        "link": "https://bca.id/3Ob5ZkO"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{946A5D37-A8AD-4631-9C58-BA0763F6E2E9}",
+                    "description": "For those who need it now but prefer to pay later, you can use BCA Paylater to shop for home renovation needs.",
+                    "title": "Paylater BCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{38CB4173-5FAD-43E3-840D-A01B43C872EF}",
+                        "title": "Pelajari",
+                        "link": "https://bca.id/3Y2i80l"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{9CF8ADF7-A6D5-4998-9F29-00794ECA7704}",
+          "text": "Prepare for child's needs",
+          "icon": "a-system-icon-update is-extra-large icon-product-tresuri-dan-kustodian-pasar-uang",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{DE8A7D77-325C-4908-AB40-D44E6D4CBF3B}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{191935FD-4262-44DD-B9AA-C8147A44D79C}",
+              "button_label": "",
+              "button_link": "",
+              "cta": "Let's find out other needs that need to be prepared for you and your beloved family",
+              "description": ""
+            },
+            "result": {
+              "description": "Having a baby is a joyful moment. With BCA’s easy and practical services, you can plan for the baby’s arrival and daily needs.",
+              "title": "Preparing for the Arrival of Your Baby"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{A2C3CEF9-ED1A-4A5C-A973-D66BA9F8F483}",
+                "description": "Manage family finances wisely with BCA for various needs, such as baby supplies, child healthcare costs, and education funds.",
+                "title": "Financial Solutions for a New Family",
+                "type": "product"
+              },
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{69281980-B920-479E-9741-AB8CB25AC56C}",
+                "description": "",
+                "title": "Preparing for Child Education",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{9D6895B8-873D-4DE4-84A5-A1C37756EBA1}",
+                    "description": "Ensure your child's future education with BCA's Education Insurance product.",
+                    "title": "Education insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{AD610CB7-FC96-4436-B432-4B9B7110CEE1}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4dq8nOc"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{E90F6C27-3498-4861-BB2A-4EDD33CE6DC6}",
+                    "description": "Looking for long-term investments with minimal risk? e-Deposito can be a solution to secure your child's education fund.",
+                    "title": "e-Deposito",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{DA821DE0-4E7F-42A3-AFBF-E96B205F1A48}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TESCfe"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{CC4FFDCA-1630-49FE-9F78-0B54B85E3799}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4efRk2A"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8E7801F9-422B-48C6-B476-01E6D8034A02}",
+                        "title": "Open account with myBCA",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{E22E11B9-D4D6-4F8E-9740-4EAD5D6D2E95}",
+                    "description": "Government Bonds investments are suitable for those who want stable and fixed returns to prepare for your child's education fund.",
+                    "title": "Bonds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{63A4D7CD-9A95-4AAC-B529-9D1B82FE9703}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XF8FLj"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{109AC4EF-5196-4810-A77A-578620E8F868}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4ei6Qei"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{2BE7DE24-04D0-465B-B882-E338D5A75A17}",
+                        "title": "Investasi Now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{01F1B275-12ED-46F4-9E3A-A9F39026BC05}",
+                    "description": "Safer investments can be made through Mutual Funds, where the portfolio is managed by Professional Investment Managers.",
+                    "title": "Mutual Funds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{64001102-8AF6-4017-8244-5C059F8FC07B}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4gEqXoG"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{CFD4C3E4-CCD1-42BB-ADE5-347503676CAD}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/3ZHzxwD"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{2B897A6B-F7EB-498C-B444-504DB01381D4}",
+                        "title": "Investasi Now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{F28B383A-440D-4486-8FE8-D934508F2D3A}",
+                    "description": "BCA Tahapan Berjangka can be utilized to prepare for your child's savings, where regular deposits and terms can be adjusted to your needs.",
+                    "title": "Tahapan Berjangka BCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{D433AB1D-D577-4CFA-A7E4-706D17AD4611}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XyEzch"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{66DCBBDB-FC00-47BA-9956-157E2D781CA3}",
+                "description": "",
+                "title": "Children's health",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{44793692-8C23-4347-96DB-5E98EE50616B}",
+                    "description": "BCA Credit Card can help with child healthcare payments. You can benefit from 0% installments and earn BCA rewards for every transaction.",
+                    "title": "Credit Card BCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8A429BFA-3B2F-44DD-9D5E-9FC99D57A84F}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MVrrc3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{6988AEC7-86E2-4DA5-9738-3D77DAEADC58}",
+                        "title": "Apply Now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{60B4870B-B95B-4FE6-956A-FB8767EDB37D}",
+                    "description": "Have health protection designed to fit your needs and family with abundant benefits and an easy application process.",
+                    "title": "Health Insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8C7C3249-C993-4B1E-A51B-4B3DFB41A538}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4evRpyL"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{44F4A0CA-5E51-433A-BC29-AE72DA449E7C}",
+          "text": "Build a saving habit",
+          "icon": "a-system-icon-update is-extra-large icon-product-asuransi-protection",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{10EDACE0-BBCF-4362-8AB2-10AE0BB00EF9}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{191935FD-4262-44DD-B9AA-C8147A44D79C}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2022/06/22/08/58/asuransi-tradisional-dan-asuransi-unit-link-apa-sih-bedanya",
+              "cta": "Traditional or Unit-linked insurance? Let's check the difference.",
+              "description": ""
+            },
+            "result": {
+              "description": "Protecting your family from various risks is a top priority. With a variety of insurance services to suit your needs, you can create a sense of security in your daily routine.",
+              "title": "Family Protection for Peace of Mind"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{71A88249-9208-4E10-AE78-5EEA8DF85577}",
+                "description": "There are various insurance options, from health and life protection to asset protection, ensuring your family’s well-being is well-maintained.",
+                "title": "Insurance for Family and Assets",
+                "type": "product"
+              },
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{C34C1619-3869-4F22-B3A1-2CEE75383825}",
+                "description": "",
+                "title": "Family protection",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{B1D0A9A4-7595-43CF-885F-EBE2029E3C42}",
+                    "description": "Health protection designed to fit your needs and your family’s, with abundant benefits and easy application process.",
+                    "title": "Health insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{D0412CB3-2A43-4323-BD6C-20F204954396}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4evRpyL"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{5ADF8276-6DA7-4703-B902-5913EF4D3ACE}",
+                    "description": "Protect your future and your family with life insurance, where premium costs can be tailored to your needs.",
+                    "title": "Life insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9BBBF72C-DADB-4F70-8331-3692C5124C67}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XTftWP"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{AA1DC8AB-A7C4-4094-845D-B44F53FC5FFC}",
+                    "description": "Protect yourself and your family with BCA Accident Insurance from the risk of accidents.",
+                    "title": "Accident insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{E37C41E8-64E7-44FA-93E7-C1BC359A6A40}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4evRqmj"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{0BB8B094-AF4C-43EE-92B0-BD2319D0BECF}",
+                "description": "",
+                "title": "Asset protection",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{7A5F71E9-DB5B-48CE-B6D5-F1A9F2C33847}",
+                    "description": "Protect your assets and family from the risk of damage or loss with the Property All Risks Insurance product.",
+                    "title": "Property insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{560D3D69-16B7-42D7-B788-0CA6F248CA75}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3Byqsw0"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{6ED6FE9C-6ECF-4A1A-9000-15486F87BF56}",
+                    "description": "Protect your vehicle from damage and theft with affordable premiums through Vehicle Insurance.",
+                    "title": "Auto Insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{55131346-5E4B-4B28-842D-D15DD81CB36F}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XSwzEh"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{AF0B9A08-928E-489A-AAAE-C1E5F1799137}",
+          "text": "Plan family vacation",
+          "icon": "a-system-icon-update is-extra-large icon-product-korporasi-manajemen",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{55554882-BCE1-4E47-A601-35A902B7204A}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{191935FD-4262-44DD-B9AA-C8147A44D79C}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2023/03/06/08/21/10-hal-yang-perlu-disiapkan-saat-liburan-ke-luar-negeri",
+              "cta": "Want to know what to prepare when traveling abroad?",
+              "description": ""
+            },
+            "result": {
+              "description": "Creating unforgettable moments with family becomes easier with well-planned vacations",
+              "title": "Enjoy Holidays with Family"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{B8E33E0A-63A2-4C86-BDC5-FAACDBD88784}",
+                "description": "Practical and secure banking services can help you enjoy your trip without worries",
+                "title": "Banking Solutions to Realize Your Holiday Plans",
+                "type": "product"
+              },
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{28050288-1FD9-4E69-8386-8764875C775A}",
+                "description": "",
+                "title": "Planned Vacations",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{BCB3901B-F365-4212-AD87-E8AC85F626E7}",
+                    "description": "Realize your family vacation plans with BCA Tahapan Berjangka.",
+                    "title": "Tahapan Berjangka BCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8CD15E54-BDFE-45B3-9D3B-A22528B04FF8}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XyEzch"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{752F6883-6BA5-4B93-B765-5B57316B7DE6}",
+                    "description": "BCA e-Deposito can be your choice if you want to prepare vacation funds well in advance.",
+                    "title": "e-Deposito",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{90F311E8-A984-4A7E-81DD-18C88D755048}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TESCfe"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{F4E25371-BC38-4595-A0ED-D3FBA1938B4F}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4efRk2A"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{11584C72-AE78-4AE8-85F8-9DF98F995E1E}",
+                        "title": "Open account with myBCA",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{9D855D78-CA66-49CF-A1C2-C36CF26A7DAA}",
+                    "description": "Want to buy plane tickets or book a hotel? Use BCA Credit Card to enjoy 0% installment features and earn BCA rewards for every transaction.",
+                    "title": "BCA Credit Card",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{0B485ED5-F480-4BAE-AF1C-0F74C964B0E8}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MVrrc3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9D17F913-B324-4A6E-A2AA-950C4850F553}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{2B373B36-F264-4854-BAE3-2B291DF4749D}",
+                    "description": "Make your trip with your family safe and comfortable with Travel Insurance that offers affordable premiums and comprehensive benefits",
+                    "title": "Travel insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{59B6BF34-C916-4384-838B-C3B1FFEFBAF9}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3BfseCh"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{521AD353-F461-43BB-90A8-C43149CC9FF7}",
+                    "description": "Want to travel but find it a hassle to exchange foreign currency at a money changer? Just buy it using the Poket Valas feature in myBCA.",
+                    "title": "Poket Valas",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{BA4ECDF8-CB1A-481C-A62A-53700DF4C07F}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4ecUZOF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+    "itemid": "{D992B938-04EC-49B2-B1A4-C950C7E08F41}",
+    "text": "Retirement preparation",
+    "icon": "a-system-icon-update icon-product-reward-bca-cek-redeem",
+    "next": {
+      "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+      "itemid": "{D571BA3F-4EFC-48C3-BC20-5CDEB0B40DAE}",
+      "question": "What's your necessity?",
+      "options": [
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{E06B275E-246A-46BD-91F2-A59641588CCF}",
+          "text": "Prepare for retirement fund",
+          "icon": "a-system-icon-update is-extra-large icon-product-asuransi-grow",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{82B8CBD2-C359-436D-91CB-300CE44E3DA4}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{D992B938-04EC-49B2-B1A4-C950C7E08F41}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2023/02/20/06/06/tips-menyiapkan-dana-pensiun-untuk-masa-depan",
+              "cta": "Want to learn more tips on preparing your retirement fund?",
+              "description": ""
+            },
+            "result": {
+              "description": "Get easy access to manage your retirement fund with a variety of safe and convenient solutions",
+              "title": "Retirement Fund Preparation: The Key to Securing Your Future"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{870764C6-3978-4756-BEEB-7D0C08C320B5}",
+                "description": "From savings to investments, BCA offers everything to help you realize your dream retirement",
+                "title": "BCA Helps You Achieve Your Dream Retirement",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{44885071-B14B-400F-B703-5C4846FB2C59}",
+                    "description": "For those seeking stable and fixed returns to prepare for retirement, Bonds can be the right choice.",
+                    "title": "Bonds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{DDD880B7-6288-43E4-8AD3-72DF197F6ACB}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XF8FLj"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{5A6AAA86-0DB4-4B9A-B666-47109B41B4FD}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4ei6Qei"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{FC483C4A-BD83-4AE9-8D54-F4084B1AF05A}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{D586B02B-E816-4EA1-86AB-B335810216D9}",
+                    "description": "Investing in Mutual Funds is stress-free and comfortable because your funds are managed by professional and trusted Investment Managers.",
+                    "title": "Mutual Funds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8CF58304-4A77-4BCD-A956-BE2CB3096741}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4gEqXoG"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9273F44B-9074-4A7A-954E-2B77B76AFA86}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/3ZHzxwD"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{33CF18F1-4319-4901-894D-6FDA4E6C46FD}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{8C495DBA-B162-44D1-B11F-CF32D5E55CD2}",
+                    "description": "Preparing for retirement is made easier with BCA Tahapan Berjangka.",
+                    "title": "Tahapan Berjangka BCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{BB36C11B-0BDA-42F4-916F-4985C7D63A83}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XyEzch"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{5C77663A-FD79-46EF-A4C6-C9523D0913B8}",
+                    "description": "Looking for long-term investments to securely prepare for your retirement? Deposits could be the key to securing your funds",
+                    "title": "e-Deposito",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{3D5BBD8E-AE9A-4B36-B0DD-5AD215E28373}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TESCfe"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{C75BBD6A-21F7-47D5-ADB7-6749A0806826}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4efRk2A"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9B7D9C7B-1308-4FC1-9502-2A1E44B415FA}",
+                        "title": "Open account with myBCA",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{0A95C492-F838-40B2-B9E8-444E68FDD8C3}",
+          "text": "Family and asset protection",
+          "icon": "a-system-icon-update is-extra-large icon-product-asuransi-protection",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{6E2B4E40-29C4-4BA9-A53C-219CB5AE8121}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{D992B938-04EC-49B2-B1A4-C950C7E08F41}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2022/06/22/08/58/asuransi-tradisional-dan-asuransi-unit-link-apa-sih-bedanya",
+              "cta": "Traditional insurance or Unit-linked? Let's check the differences",
+              "description": ""
+            },
+            "result": {
+              "description": "Get maximum protection for your family and assets so you can focus and relax while planning for your post-retirement life",
+              "title": "Enjoy a More Peaceful Retirement with Protection"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{3F54524E-E03F-4412-9D49-77D043D2C8C3}",
+                "description": "BCA's insurance products are specially designed to meet your needs and those of your family. Enjoy protection benefits covering health, property, and vehicles that can safeguard you and your family through retirement.",
+                "title": "Comprehensive Protection for You and Your Loved Ones During Retirement",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{BD949148-A65D-488F-98F2-FCDCF3104EC7}",
+                    "description": "Health protection with abundant benefits designed to suit your family’s needs.",
+                    "title": "Health insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8212E4FE-F9B7-4C97-A860-CD573F4412E2}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4evRpyL"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{B54DEFD7-C7C0-42AA-A150-2D92FAA10272}",
+                    "description": "Make your retirement preparations more comfortable with Retirement Insurance.",
+                    "title": "Retirement insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{0FABA667-1AA2-4E8B-98C1-7A3141E3988A}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4eFb5jN"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{D4156D6C-E9D4-4ECB-ABF7-FAF2C62D8232}",
+                    "description": "Protect your assets and family from the risks of damage or loss with the Property All Risks Insurance product",
+                    "title": "Property insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{3F4CCFBB-C6EB-47B5-95B9-755082D53914}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3Byqsw0"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{EB7CFE22-A422-43E7-8424-41E01E12C376}",
+                    "description": "Secure your children's future education costs with BCA's Education Insurance.",
+                    "title": "Child education insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{233918C8-D50D-4BE8-A8CD-F1905543AB2B}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4dq8nOc"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{EC149979-226A-452A-A2F8-B270618CEAB4}",
+          "text": "Buying your dream home or vehicle",
+          "icon": "a-system-icon-update is-extra-large icon-product-kpr-pembelian-pertama",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{713A057C-48DE-4485-88B8-BB30547FA79D}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{D992B938-04EC-49B2-B1A4-C950C7E08F41}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2023/02/09/03/25/hal-yang-perlu-diperhatikan-saat-akan-meminjam-uang-di-bank",
+              "cta": "What are the things to consider when borrowing money from a bank?",
+              "description": ""
+            },
+            "result": {
+              "description": "Enjoy a comfortable retirement with the home and vehicle of your dreams. Get financing solutions to start your journey of asset ownership easily and conveniently",
+              "title": "Achieve Your Dream Home and Vehicle"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{4F6A4599-AECB-4CC7-B9D7-093ACC9978E5}",
+                "description": "Take advantage of various BCA credit product facilities to simplify the purchase of these important assets so you can focus on enjoying retirement.",
+                "title": "Solutions for Home and Vehicle Ownership",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{3C099FDA-DF02-4DCF-9EF4-D6C78D0CC91B}",
+                    "description": "Looking for your dream house or apartment? BCA Kredit Pemilikan Rumah (KPR) can be the solution to make your dream home a reality with light and flexible installments",
+                    "title": "KPR",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{29637660-E0AF-46B9-8836-5B0587A41A03}",
+                        "title": "Learn more",
+                        "link": "https://www.bca.co.id/Individu/produk/pinjaman/KPR"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{6DCFE98C-0F1B-4341-99B4-323AE787382B}",
+                        "title": "Simulation",
+                        "link": "https://rumahsaya.bca.co.id/simulasi"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{121B332B-220B-425D-82D9-FA91E9683D23}",
+                        "title": "Consult now",
+                        "link": "https://bca.id/3Ob5ZkO"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{74A9F649-E1F4-4A37-B1B4-D3318C927B06}",
+                    "description": "Want to buy a new or used car? BCA Kredit Kendaraan Bermotor (KKB) is ready to assist you with affordable and stable financing",
+                    "title": "KKB",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{82CE8980-3EA3-4D84-B860-DB8401FA5AAB}",
+                        "title": "Learn more",
+                        "link": "https://www.bca.co.id/Individu/produk/pinjaman/KKB"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{A631E549-8614-466E-960F-072E55E088A0}",
+                        "title": "Simulation",
+                        "link": "https://kreditkerenbanget.com/car-simulation?location=36"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{E1C9BE63-B739-4EE5-8961-8F7F4860413F}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/4h0aVp3"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{903C4C25-E65F-46D9-8CB7-81FE4983BF5F}",
+                    "description": "Want to buy your dream motorcycle for touring? BCA Kredit Sepeda Motor (KSM) can help with affordable installments and easy requirements",
+                    "title": "KSM",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{4CC1F7A2-419A-47BB-94BE-7EEE14D48F85}",
+                        "title": "Learn more",
+                        "link": "https://www.bca.co.id/Individu/produk/pinjaman/KSM"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{A25700A9-9BBF-46D4-AC7A-8AB8CE78A88B}",
+                        "title": "Consult now",
+                        "link": "https://bca.id/43y3Ap2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{34FBC153-CA4C-4BB7-B611-45D860F7DA06}",
+          "text": "Enjoying a hobby or sport",
+          "icon": "a-system-icon-update is-large icon-benefit-e-banking",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{69942A6C-68EB-48DE-BE60-E5DF8B299432}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{D992B938-04EC-49B2-B1A4-C950C7E08F41}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/awas-modus/2022/12/07/10/38/waspada-install-aplikasi-bca-lewat-link-penipuan",
+              "cta": "Want easier transactions but don't want to fall victim to fraud by installing from fake links?",
+              "description": ""
+            },
+            "result": {
+              "description": "Having hobbies and enjoying sports is important, as these can be activities you pursue during retirement. Enjoy easy transactions to support your hobbies and sports",
+              "title": "Enjoy Hobbies and Sports Easily"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{F05F1472-5C62-4E88-A25B-F68C7600005F}",
+                "description": "BCA provides various products and service features to make it easier to pay for hobbies, sports equipment, and club membership fees.",
+                "title": "Ease of Transactions to Pursue Your Hobbies",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{C4166C22-4E29-4F38-B79D-72FC6BCDE130}",
+                    "description": "Enjoy the convenience of transactions from more than one account and convenient payments with the Paylater feature in myBCA.",
+                    "title": "myBCA",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{E633A2C7-928B-4AFB-95BB-1A703EF59566}",
+                        "title": "Learn more",
+                        "link": "https://www.bca.co.id/Individu/layanan/e-banking/myBCA"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{1E88E06F-997A-4EE8-8BB8-BC9DED897C27}",
+                        "title": "Download",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{F99D08CA-C8F9-417D-BCCE-F807C8D6AB26}",
+                    "description": "Have many hobbies and sports activities you pursue? BCA Credit Card can be your payment solution with a 0% installment feature and BCA rewards that you can earn",
+                    "title": "BCA Credit Card",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{2A03CC09-D500-402B-B29E-F0A67D89B3AB}",
+                        "title": "Learn more",
+                        "link": "https://www.bca.co.id/Individu/produk/Kartu-Kredit/pilihan-kartu"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{C317C962-72AF-4993-A891-88DC5046542E}",
+                        "title": "Apply Now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{C9B3DFC2-9632-48D8-83D5-ECC19DD9BE65}",
+          "text": "Planning for vacation",
+          "icon": "a-system-icon-update is-extra-large icon-product-korporasi-manajemen",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{96DE1E24-B388-4B1E-9E79-D741B5A27AA9}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{D992B938-04EC-49B2-B1A4-C950C7E08F41}",
+              "button_label": "Check it out",
+              "button_link": "https://bca.id/3XSwnox ",
+              "cta": "Want to know what to prepare when traveling abroad? Find out here",
+              "description": ""
+            },
+            "result": {
+              "description": "Vacations are important for relaxation and spending valuable time with your family. Now, many conveniences are available through versatile banking services.",
+              "title": "Plan Your Vacation Comfortably"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{5F7F52D3-5A2A-4858-8704-27AC6AA2631C}",
+                "description": "BCA provides various products and services to support your vacation. From foreign currency savings to travel protection, vacations become more comfortable and safe.",
+                "title": "Your Dream Vacation Is Not Just a Dream",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{CD684768-7D10-4AE0-B34F-3A5FB7A6A6EB}",
+                    "description": "Want to prepare for retirement but still be able to travel? BCA Credit Card is a payment solution that can help you manage transactions with a 0% installment feature and lots of rewards to earn.",
+                    "title": "BCA Credit Card",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{962A3865-6F15-46BC-8FB5-825D0FDEF01B}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MVrrc3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{E7004B0F-755D-4B91-8B92-0FDD1FD198A0}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{D85CA728-A719-46FB-BB39-0F7FA1EAB8E1}",
+                    "description": "Make your family vacation safer and more comfortable with Travel Insurance, which has affordable premiums and comprehensive benefits.",
+                    "title": "Travel Insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{8F5D5C1B-E54A-40B6-9CA5-86828003731E}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3BfseCh"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{6BB1D7F0-9574-4A9C-839E-8DA9CAC92DFC}",
+                    "description": "Make your family vacation safer and more comfortable with Travel Insurance, which has affordable premiums and comprehensive benefits.",
+                    "title": "Poket Valas",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{D0CFA060-D30C-43FD-B8C0-E155A8B40FE3}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4ecUZOF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+    "itemid": "{92C93F25-9C4F-48B6-9A42-884C792EDD60}",
+    "text": "Enjoying retirement",
+    "icon": "icon-pensiun",
+    "next": {
+      "template": "{E541EECB-CC65-4C96-ADCB-EC39FFEFA461}",
+      "itemid": "{6E419441-5F07-447C-A54B-AB6807A89A11}",
+      "question": "What's your necessity?",
+      "options": [
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{6E3027EF-6DDD-43F4-AD7D-0B428EE5ACF2}",
+          "text": "Grow your retirement fund",
+          "icon": "a-system-icon-update is-extra-large icon-product-asuransi-grow",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{BF87A9A8-FBE2-4FFE-9414-AB7D5887E211}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{92C93F25-9C4F-48B6-9A42-884C792EDD60}",
+              "button_label": "Check it out",
+              "button_link": "https://bca.id/3ByhEWW",
+              "cta": "Let’s understand what investment diversification is to minimize potential risks",
+              "description": ""
+            },
+            "result": {
+              "description": "Enjoying your later years is more pleasant when your finances are stable",
+              "title": "Secure Retirement Funds, More Memorable Golden Years"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{FA18AE5B-BAD9-4747-81DB-6F26BC1728BA}",
+                "description": "There are various investment instruments available at BCA that you can choose from based on your needs, all through Welma myBCA",
+                "title": "Investing with BCA is Easy and Simple in myBCA",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{30717D50-D4FF-4B25-AC4C-C13EBA68FC85}",
+                    "description": "For those looking for stable and secure investment returns guaranteed by the government, Bonds can be a choice to consider",
+                    "title": "Bonds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{9B8D7BD1-36C4-4E67-822F-EDFCC4438257}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3XF8FLj"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{F05E5FDD-6768-40BB-977D-F8DAFF722856}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4ei6Qei"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{07B2A047-0EC4-4CBB-A2C2-3AFE545BA3C2}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{6F6AFF2D-5BA5-4A0E-B727-2CC3F1954BF3}",
+                    "description": "Invest in Mutual Funds through Welma myBCA with peace of mind, as your funds are managed by professional and trusted Investment Managers",
+                    "title": "Mutual Funds",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{B27FD8D1-6399-49C4-A847-078873A12D7C}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/4gEqXoG"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{FE1D0964-CEFB-429C-830A-8727C4465627}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/3ZHzxwD"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{3EC358BC-D389-4379-81C6-A35959A1B9C0}",
+                        "title": "Invest now",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  },
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{54A1E68A-539F-4FB4-9B95-0BE5514E1123}",
+                    "description": "For those who want to practice compound investing or the concept of compounding interest, BCA e-Deposito is the solution.",
+                    "title": "e-Deposito",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{21353943-E297-4D51-BD28-BC842AD6098F}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TESCfe"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{188ACF57-239D-49CA-9479-E83229561796}",
+                        "title": "Simulation",
+                        "link": "https://bca.id/4efRk2A"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{03A1E6C8-6245-4CCC-9C71-0700F875633A}",
+                        "title": "Open account with myBCA",
+                        "link": "https://mybca.onelink.me/H3MF/a0oxpl4i"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{8B31AB9E-D029-4FFE-A6AA-4988A72F85AA}",
+          "text": "Enjoying hobbies or sports",
+          "icon": "a-system-icon-update is-extra-large icon-product-korporasi-manajemen",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{528125C7-8BCB-4152-B0F2-A32ECD7466C0}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{92C93F25-9C4F-48B6-9A42-884C792EDD60}",
+              "button_label": "Check it out",
+              "button_link": "https://www.bca.co.id/informasi/Edukatips/2023/03/27/03/45/tips-memaksimalkan-kartu-kredit-untuk-manfaat-lebih-optimal",
+              "cta": "Check out various exciting and latest promotions from BCA here.",
+              "description": ""
+            },
+            "result": {
+              "description": "Having hobbies and staying active through sports is the perfect way to maintain health and fitness in your later years",
+              "title": "Stay Happy as You Age"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{41A51B8E-0E77-4FAA-BC65-D25485DA8721}",
+                "description": "BCA Credit Card accompanies you through retirement without worrying about payments. There are various promotions and convenient features for your transactions.",
+                "title": "BCA Credit Card to Enjoy Your Golden Years",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{EEFFE328-90FB-4E45-9A89-379DEF9DA424}",
+                    "description": "Activities with your family are even more enjoyable with the BCA Credit Card. Many benefits and attractive promotions are available",
+                    "title": "BCA Credit Card",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{D5F4ABFD-E97D-437E-B45B-EB9EB8DE9B07}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3MVrrc3"
+                      },
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{F8AFEB44-42F1-4E6D-A21F-CF6D5F6B2D33}",
+                        "title": "Apply now",
+                        "link": "https://bca.id/3OcMxUN"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "template": "{37A8E670-0B0B-48F7-9F36-705108CBB617}",
+          "itemid": "{D213CE16-6F39-487F-9122-3E875A6502D6}",
+          "text": "Estate planning",
+          "icon": "a-system-icon-update is-extra-large icon-product-asuransi-protection",
+          "next": {
+            "template": "{A248219A-A77E-4666-8135-72689AD80E84}",
+            "itemid": "{75730BE8-0B0C-4921-9DC2-C766372B1123}",
+            "cta": {
+              "back": "Back to previous page",
+              "target": "{92C93F25-9C4F-48B6-9A42-884C792EDD60}",
+              "button_label": "Check it out",
+              "button_link": "https://bca.id/4eLX3wX",
+              "cta": "What are the hidden benefits of Life Insurance?",
+              "description": ""
+            },
+            "result": {
+              "description": "Retirement is the right time to enjoy the fruits of your hard work. Live your later years peacefully with the right future protection for yourself and your family.",
+              "title": "Enjoy Your Golden Years with Peace of Mind"
+            },
+            "timeline": [
+              {
+                "template": "{E993FF3F-1E6D-45AE-8D59-100390192159}",
+                "itemid": "{A2E5817F-DE41-49A8-8B5A-DC0590F187FD}",
+                "description": "With BCA, you can protect your loved ones' future with proper inheritance planning from now on.",
+                "title": "Start Preparing Your Inheritance Insurance Now",
+                "type": "product",
+                "cards": [
+                  {
+                    "template": "{8A94D76F-926D-406E-A5AF-0B1C1D4E9B43}",
+                    "itemid": "{EECE5E50-71D7-453C-9C3B-08E3F122A003}",
+                    "description": "Plan your inheritance to secure your family's future with the Inheritance Insurance Product.",
+                    "title": "Heritage insurance",
+                    "actions": [
+                      {
+                        "template": "{22F20FE1-5C9D-4B56-92A9-C0EBBC1840A9}",
+                        "itemid": "{407F9264-4DD1-4118-85C0-0603C4C5588A}",
+                        "title": "Learn more",
+                        "link": "https://bca.id/3TJ8TQ3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+];
+window.dataPlanner = dataPlanner;
