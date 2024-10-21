@@ -1,65 +1,22 @@
-
-
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js" lang="id">
-<!--<![endif]-->
-
-<!-- Mirrored from www.bca.co.id/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Oct 2024 06:04:28 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-	 <!-- Google Tag Manager -->
-	    <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || []; w[l].push({
-                    'gtm.start':
-                        new Date().getTime(), event: 'gtm.js'
-                }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                '../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-KGCJ5M');
-        </script>
-	    <!-- End Google Tag Manager -->
-		<!-- Meiro Tracking Code Start -->
-		 <script type="text/javascript">
-				 var config = {
-				   domain: "me.bca.meiro.io",
-				   the_trade_desk: {
-					 pid: "r6frfy6",
-					 gdpr: 0,
-					 gdpr_consent: ""
-				   }
-				 }
-				 var script = document.createElement("script");
-				 var callback = function() {
-				   MeiroEvents.track("outboundLinkClick");
-				 };
-				 script.onload = function() {
-				   MeiroEvents.init(config);
-				   MeiroEvents.track("pageView");
-				   if (document.readyState === "complete") {
-					 callback();
-				   } else {
-					 window.addEventListener("load", callback);
-				   }
-				 };
-				 script.src = "http://sdk.me.bca.meiro.io/";
-				 script.async = true;
-				 document.head.appendChild(script);
-		</script>
-		 <!-- Meiro Tracking Code End -->
-	<style>
+<style>
 .a-text-ellipsis {
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 4; /* For WebKit browsers like Chrome, Safari */
   -webkit-box-orient: vertical;
+  
+  display: box; /* Older versions of spec */
+  box-orient: vertical; /* Older versions of spec */
+  
+  /* Future support */
+  line-clamp: 4; /* Not widely supported yet */
 }
+
 
 @media (max-width:900px) and (min-width: 480px) {
 #latestPromoLanding {
@@ -155,7 +112,7 @@ padding-left: 10% !important;
 	<div class="popup popup--disclaimer">
 		<div class="container">
 			<div class="popup__wrapper">
-				<div class="popup__header"><a class="popup-close JS__close-popup" onclick="XA.cookies.createCookie(&#39;privacy-notification&#39;, 1, 365);XA.cookies.removeCookieWarning();"></a></div>
+				<div class="popup__header"><a class="popup-close JS__close-popup" onclick="XA.cookies.createCookie('privacy-notification', 1, 365);XA.cookies.removeCookieWarning();"></a></div>
 				<div class="popup__content">
 					<p>Dengan mengakses situs ini, Anda telah menyetujui penggunaan <a href="Syarat-dan-Ketentuan/SK-cookies.html">cookies</a> dari kami.</p>
 				</div>
@@ -658,27 +615,36 @@ padding-left: 10% !important;
 
 <div class="buzz" id="buzz"></div>
 <style>
+    /* Full height and zero padding for specific elements */
+    div#sb_F778B5E071314E8F98222C510B7DC2FA, 
+    div#sb_92E8BFAB8C174A91959A3949C578ACF0 {
+        height: 100%; 
+        padding: 0;
+    }
 
-    div#sb_F778B5E071314E8F98222C510B7DC2FA, div#sb_92E8BFAB8C174A91959A3949C578ACF0 {
- height: 100%; 
- padding:0;
-}
-#buzz {
-height: 100%;
-}
-@media (max-width:728px){
-div#sb_F778B5E071314E8F98222C510B7DC2FA, div#sb_92E8BFAB8C174A91959A3949C578ACF0 {
-    height: calc(100% - 100px);
-    padding-top:25px;
-}
+    /* Full height for the #buzz element */
+    #buzz {
+        height: 100%;
+    }
 
-body.smartbar-is-open {
-overflow: hidden;
-height: 100%;
-width: 100%;
-position: fixed;
-}
+    /* Responsive styling for elements on smaller screens */
+    @media (max-width: 728px) {
+        div#sb_F778B5E071314E8F98222C510B7DC2FA, 
+        div#sb_92E8BFAB8C174A91959A3949C578ACF0 {
+            height: calc(100% - 100px);
+            padding-top: 25px;
+        }
+
+        /* Prevent body from scrolling when smartbar is open */
+        body.smartbar-is-open {
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+        }
+    }
 </style>
+
 			</div>
 	</div>
 </aside>
@@ -1679,5 +1645,4 @@ position: fixed;
 	
 </body>
 
-<!-- Mirrored from www.bca.co.id/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Oct 2024 06:06:04 GMT -->
 </html>
