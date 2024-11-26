@@ -60,22 +60,43 @@ function handleHashChange(event) {
         case "home":
             // Kode untuk value1
             renderHTML('content', 'content/home.html', runSliderJS);
+            footerMenuSetActive();
             break;
         case "vendors":
             // Kode untuk value2
             renderHTML('content', 'content/vendor.html', runSliderJS);
+            footerMenuSetActive();
             break;
         case "profile":
             renderHTML('content', 'content/profile.html', runSliderJS);
+            footerMenuSetActive();
             break;
         case "store":
             renderHTML('content', 'content/paket.html', runSliderJS);
+            footerMenuSetActive();
             break;
         case "inspirations":
             renderHTML('content', 'content/inspirasi.html', runSliderJS);
+            footerMenuSetActive();
             break;
         default:
             renderHTML('content', 'content/home.html', runSliderJS);
             // Kode untuk kondisi default (opsional)
     }
+}
+
+
+function footerMenuSetActive(){
+    // Dapatkan semua elemen menu
+    const menuItems = document.querySelectorAll('.menu-item');
+
+    // Tambahkan event listener ke setiap item menu
+    menuItems.forEach(item => {
+        item.addEventListener('click', function () {
+            // Hapus kelas aktif dari semua item
+            menuItems.forEach(i => i.classList.remove('active'));
+            // Tambahkan kelas aktif ke elemen yang diklik
+            this.classList.add('active');
+        });
+    });
 }

@@ -36,6 +36,10 @@
   .menu-item:hover {
     color: #e91e63;
   }
+
+  .menu-item.active {
+    color: #e91e63; /* Active state */
+  }
   
   .menu-item span {
     font-size: 12px;
