@@ -1,6 +1,8 @@
-const slider = document.querySelector('.slider');
-const slides = document.querySelectorAll('.slide');
-const dots = document.querySelectorAll('.dot');
+//const slider = document.querySelector('.slider');
+let slider = document.querySelector('.slider');
+let slides = document.querySelectorAll('.slide');
+let dots = document.querySelectorAll('.dot');
+
 let currentIndex = 0;
 let isDragging = false;
 let startPos = 0;
