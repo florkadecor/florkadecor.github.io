@@ -1,12 +1,12 @@
 import {renderHTML,addJSInHead} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/element.js";
-import {onHashChange} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
+import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
 
 
 onHashChange(handleHashChange);
 // Memanggil renderHTML dengan callback
-renderHTML('content', 'content/home.html', afterContentLoaded);
+renderHTML('content', 'content/home.html', afterHomeContentLoaded);
 
-function afterContentLoaded() {
+function afterHomeContentLoaded() {
     console.log('Konten telah dimuat dan dimasukkan ke dalam DOM.');
     addJSInHead("slider.js");
     // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
@@ -20,15 +20,27 @@ function handleHashChange(event) {
     console.log('New URL:', event.newURL);
 
     // Ambil hash dari URL
-    const currentHash = window.location.hash;
+    const currentHash = getHash();
     console.log('Current Hash:', currentHash);
 
     // Tambahkan logika berdasarkan hash
-    if (currentHash === '#section1') {
-        console.log('Navigating to Section 1');
-    } else if (currentHash === '#section2') {
-        console.log('Navigating to Section 2');
-    } else {
-        console.log('Navigating to default section');
+    switch(currentHash) {
+        case "home":
+            // Kode untuk value1
+            renderHTML('content', 'content/home.html', afterHomeContentLoaded);
+            break;
+        case "vendors":
+            // Kode untuk value2
+            renderHTML('content', 'content/vendor.html');
+            break;
+        case "profile":
+            renderHTML('content', 'content/profile.html');
+            break;
+        case "store":
+            renderHTML('content', 'content/paket.html');
+            break;
+        default:
+            renderHTML('content', 'content/home.html', afterHomeContentLoaded);
+            // Kode untuk kondisi default (opsional)
     }
 }
