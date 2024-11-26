@@ -17,8 +17,9 @@ body {
   }
   
   main {
-    padding: 20px;
-    text-align: center;
+    padding: 0; /* Hilangkan padding tambahan */
+    margin: 0; /* Hilangkan margin tambahan */
+    width: 100%; /* Penuhi lebar layar */
     max-height: 100vh; /* Membatasi tinggi maksimum main pada tinggi layar */
     overflow-y: auto; /* Menyediakan scroll hanya jika diperlukan (konten lebih tinggi) */
     overflow-x: hidden; /* Pastikan tidak ada scroll horizontal */
