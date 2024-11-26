@@ -1,79 +1,71 @@
 /* Header Styling */
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
-    background-color: white;
+    left: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between; /* Elemen kiri-kanan terpisah */
-    align-items: center; /* Sejajarkan vertikal */
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
+    background: rgba(0, 0, 0, 0); /* Transparan awal */
+    color: white;
     z-index: 1000;
-    height: auto; /* Tinggi fleksibel */
+    transition: background 0.3s ease-in-out; /* Animasi transisi */
 }
 
-/* Search Container */
-.search-container {
+/* Header Saat Scroll */
+.header.scrolled {
+    background: rgba(0, 0, 0, 0.7); /* Abu transparan */
+}
+
+/* Logo Container */
+.logo {
     display: flex;
-    align-items: center; /* Ikon dan input sejajar secara vertikal */
-    flex-grow: 1; /* Isi ruang kosong yang tersedia */
+    align-items: center;
+    gap: 10px;
 }
 
-.search-icon {
-    font-size: 18px;
-    color: #888;
-    margin-right: 10px; /* Jarak antara ikon pencarian dan input */
+.logo-img {
+    width: 40px;
+    height: auto;
 }
 
-.search-input {
-    width: 100%; /* Input memenuhi ruang tersisa */
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    outline: none;
-    font-size: 14px;
-    height: 40px; /* Tinggi input konsisten */
+.tagline {
+    font-size: 12px;
+    color: #ddd;
 }
 
 /* Menu Icons */
 .menu-icons {
     display: flex;
-    align-items: center; /* Sejajarkan ikon secara vertikal */
-    gap: 10px; /* Jarak antar ikon */
+    align-items: center;
+    gap: 15px;
 }
 
 .menu-icons i {
     font-size: 20px;
-    color: #555;
+    color: white;
     cursor: pointer;
     transition: color 0.3s;
-    height: 40px; /* Tinggi konsisten dengan input */
-    width: 40px; /* Ikon memiliki lebar tetap */
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Sejajarkan ikon di tengah */
 }
 
 .menu-icons i:hover {
     color: #007BFF;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .header {
-        flex-direction: row; /* Tetap sejajar horizontal */
-        align-items: center; /* Elemen tetap sejajar vertikal */
-        padding: 10px;
-    }
+/* Content Styling */
+.content {
+    margin-top: 80px; /* Beri jarak agar konten tidak tertimpa header */
+    padding: 0 20px; /* Jarak kiri dan kanan */
+}
 
-    .search-container {
-        flex-grow: 1; /* Isi ruang kosong */
-        display: flex;
-        align-items: center; /* Sejajarkan ikon dan input vertikal */
-        margin-right: 10px; /* Beri jarak antara search bar dan ikon menu */
-    }
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
 
-    .menu-icons {
-        justify-content: flex-end; /* Ikon tetap di sisi kanan */
-    }
+.content p {
+    margin-bottom: 15px;
+    color: #333;
 }
