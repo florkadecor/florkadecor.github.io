@@ -1,8 +1,3 @@
-let slider = document.querySelector('.slider');
-let slides = document.querySelectorAll('.slide');
-let dots = document.querySelectorAll('.dot');
-
-
 let currentIndex = 0;
 let isDragging = false;
 let startPos = 0;
@@ -16,17 +11,17 @@ function showSlide(index) {
     currentTranslate = -currentIndex * window.innerWidth;
     prevTranslate = currentTranslate;
     setSliderPosition();
-    dots.forEach(dot => dot.classList.remove('active'));
-    dots[currentIndex].classList.add('active');
+    document.querySelectorAll('.dot').forEach(dot => dot.classList.remove('active'));
+    document.querySelectorAll('.dot')[currentIndex].classList.add('active');
 }
 
 // Fungsi untuk mengatur posisi slider
 function setSliderPosition() {
-    slider.style.transform = `translateX(${currentTranslate}px)`;
+    document.querySelector('.slider').style.transform = `translateX(${currentTranslate}px)`;
 }
 
 // Menambahkan event listener untuk setiap slide
-slides.forEach((slide, index) => {
+document.querySelectorAll('.slide').forEach((slide, index) => {
     const slideImage = slide.querySelector('img');
     slideImage.addEventListener('dragstart', (e) => e.preventDefault());
 
@@ -59,7 +54,7 @@ function touchEnd() {
 
     const movedBy = currentTranslate - prevTranslate;
 
-    if (movedBy < -100 && currentIndex < slides.length - 1) currentIndex += 1;
+    if (movedBy < -100 && currentIndex < document.querySelectorAll('.slide').length - 1) currentIndex += 1;
     if (movedBy > 100 && currentIndex > 0) currentIndex -= 1;
 
     showSlide(currentIndex);
@@ -88,7 +83,7 @@ function animation() {
 // Auto-slide (opsional)
 setInterval(() => {
     if (!isDragging) {
-        currentIndex = (currentIndex + 1) % slides.length;
+        currentIndex = (currentIndex + 1) % document.querySelectorAll('.slide').length;
         showSlide(currentIndex);
     }
 }, 5000);
