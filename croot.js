@@ -22,7 +22,6 @@ function loadSliderJS() {
 
 function runSliderJS() {
     console.log('slider js sudah di run');
-    //addJSInHead("sliderrun.js");
     currentIndex = 0;
     isDragging = false;
     startPos = 0;
@@ -44,14 +43,6 @@ function runSliderJS() {
         slide.addEventListener('mousemove', touchMove);
         slide.addEventListener('mouseleave', touchEnd);
     });
-    // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
-    // Auto-slide (opsional)
-/*     setInterval(() => {
-        if (!isDragging) {
-            currentIndex = (currentIndex + 1) % document.querySelectorAll('.slide').length;
-            showSlide(currentIndex);
-        }
-    }, 5000); */
 }
 
 
