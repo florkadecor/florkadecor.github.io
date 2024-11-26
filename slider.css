@@ -1,80 +1,113 @@
-/* Kontainer utama slider */
+/* Kontainer slider */
 .slider-container {
     position: relative;
     overflow: hidden;
-    width: 100vw; /* Gunakan lebar penuh viewport */
-    margin: 0;
-    user-select: none;
-    -webkit-user-drag: none;
-    touch-action: pan-y;
+    width: 100vw;
+    height: 50vh; /* Slider secara default memenuhi 50% dari tinggi viewport */
+    max-height: 600px; /* Batas maksimal tinggi slider pada desktop */
 }
 
 /* Slider */
 .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    height: 100%; /* Sesuaikan dengan tinggi kontainer */
 }
 
-/* Slide individual */
+/* Slide */
 .slide {
-    min-width: 100vw; /* Pastikan setiap slide memiliki lebar penuh viewport */
+    min-width: 100vw;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Sembunyikan elemen yang keluar dari batas */
 }
 
 /* Gambar dalam slide */
 .slide img {
-    width: 100vw; /* Pastikan gambar memenuhi seluruh lebar viewport */
-    height: auto;
-    display: block;
+    width: 100%; /* Penuhi lebar kontainer */
+    height: 100%; /* Sesuaikan tinggi kontainer */
+    object-fit: cover; /* Pastikan gambar ter-crop secara proporsional */
 }
 
-/* Overlay teks */
-.text-overlay {
+/* Overlay konten teks */
+.content {
     position: absolute;
-    bottom: 20%;
-    left: 10%;
+    z-index: 2;
+    text-align: center;
     color: #fff;
-    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 80%;
 }
 
-.text-overlay h2 {
-    font-size: 2rem;
-    margin: 0;
-}
-
-.text-overlay p {
-    font-size: 1rem;
-}
-
-/* Tombol navigasi dot */
+/* Navigasi dots */
 .dots {
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    z-index: 3;
 }
 
 .dot {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background: #ccc;
     border-radius: 50%;
     cursor: pointer;
-    transition: background 0.3s;
 }
 
 .dot.active {
-    background: #ff5959;
+    background: #fff;
+}
+
+/* Tombol navigasi */
+.navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s;
+    outline: none;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
 }
 
 /* Responsivitas */
 @media (max-width: 768px) {
-    .text-overlay h2 {
-        font-size: 1.5rem;
+    .slider-container {
+        height: 40vh; /* Kurangi tinggi slider pada layar kecil */
+        max-height: 400px; /* Batas maksimal tinggi slider */
     }
-    .text-overlay p {
-        font-size: 0.9rem;
+
+    .content {
+        padding: 10px;
+        font-size: 0.9rem; /* Ukuran font lebih kecil pada layar kecil */
+    }
+
+    button {
+        font-size: 1.5rem; /* Kecilkan ukuran tombol */
+        padding: 8px;
     }
 }
