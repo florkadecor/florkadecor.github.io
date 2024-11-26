@@ -1,4 +1,4 @@
-import {renderHTML} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.6/element.js";
+import {renderHTML} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.7/element.js";
 
 
 
