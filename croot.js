@@ -5,6 +5,7 @@ import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.
 
 onClick("phoneiconcall",waFlorka);
 
+//call wa atau wa dulu
 function waFlorka(){
     window.open('https://wa.me/6285721000489', '_blank');
 }
