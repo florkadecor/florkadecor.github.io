@@ -4,10 +4,10 @@ import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.
 
 onHashChange(handleHashChange);
 // Memanggil renderHTML dengan callback
-renderHTML('content', 'content/home.html', afterHomeContentLoaded);
+renderHTML('content', 'content/home.html', loadSliderJS);
 
-function afterHomeContentLoaded() {
-    console.log('Konten telah dimuat dan dimasukkan ke dalam DOM.');
+function loadSliderJS() {
+    console.log('slider js sudah di load');
     addJSInHead("slider.js");
     // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
 }
@@ -27,20 +27,20 @@ function handleHashChange(event) {
     switch(currentHash) {
         case "home":
             // Kode untuk value1
-            renderHTML('content', 'content/home.html', afterHomeContentLoaded);
+            renderHTML('content', 'content/home.html', loadSliderJS);
             break;
         case "vendors":
             // Kode untuk value2
-            renderHTML('content', 'content/vendor.html');
+            renderHTML('content', 'content/vendor.html', loadSliderJS);
             break;
         case "profile":
-            renderHTML('content', 'content/profile.html');
+            renderHTML('content', 'content/profile.html', loadSliderJS);
             break;
         case "store":
-            renderHTML('content', 'content/paket.html');
+            renderHTML('content', 'content/paket.html', loadSliderJS);
             break;
         default:
-            renderHTML('content', 'content/home.html', afterHomeContentLoaded);
+            renderHTML('content', 'content/home.html', loadSliderJS);
             // Kode untuk kondisi default (opsional)
     }
 }
