@@ -81,6 +81,7 @@ function handleHashChange(event) {
             break;
         default:
             renderHTML('content', 'content/home.html', runSliderJS);
+            footerMenuSetActive();
             // Kode untuk kondisi default (opsional)
     }
 }
@@ -90,13 +91,17 @@ function footerMenuSetActive(){
     // Dapatkan semua elemen menu
     const menuItems = document.querySelectorAll('.menu-item');
 
-    // Tambahkan event listener ke setiap item menu
+    // Ambil href saat ini (misalnya, dari URL browser atau atribut yang dipilih)
+    const currentHref = window.location.hash; // Mengambil fragment dari URL, seperti #home
+
+    // Loop melalui elemen menu untuk menyesuaikan dengan href
     menuItems.forEach(item => {
-        item.addEventListener('click', function () {
-            // Hapus kelas aktif dari semua item
-            menuItems.forEach(i => i.classList.remove('active'));
-            // Tambahkan kelas aktif ke elemen yang diklik
-            this.classList.add('active');
-        });
+        if (item.getAttribute('href') === currentHref) {
+            // Tambahkan kelas aktif ke elemen yang sesuai
+            item.classList.add('active');
+        } else {
+            // Hapus kelas aktif dari elemen lain
+            item.classList.remove('active');
+        }
     });
 }
