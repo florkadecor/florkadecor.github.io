@@ -39,6 +39,9 @@ function handleHashChange(event) {
         case "store":
             renderHTML('content', 'content/paket.html', loadSliderJS);
             break;
+        case "inspirations":
+            renderHTML('content', 'content/inspirasi.html', loadSliderJS);
+            break;
         default:
             renderHTML('content', 'content/home.html', loadSliderJS);
             // Kode untuk kondisi default (opsional)
