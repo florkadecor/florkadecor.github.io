@@ -1,6 +1,13 @@
-import {renderHTML,addJSInHead} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/element.js";
+import {renderHTML,addJSInHead,onClick} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/element.js";
 import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
 
+
+
+onClick("phoneiconcall",waFlorka);
+
+function waFlorka(){
+    window.open('https://wa.me/6285721000489', '_blank');
+}
 
 onHashChange(handleHashChange);
 // Memanggil renderHTML dengan callback
