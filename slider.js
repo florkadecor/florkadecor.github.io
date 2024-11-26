@@ -1,11 +1,6 @@
-//const slider = document.querySelector('.slider');
-//const slides = document.querySelectorAll('.slide');
-//const dots = document.querySelectorAll('.dot');
-
-
-let slider = typeof slider !== 'undefined' ? slider : document.querySelector('.slider');
-let slides = typeof slides !== 'undefined' ? slides : document.querySelectorAll('.slide');
-let dots = typeof dots !== 'undefined' ? dots : document.querySelectorAll('.dot');
+let slider = document.querySelector('.slider');
+let slides = document.querySelectorAll('.slide');
+let dots = document.querySelectorAll('.dot');
 
 
 let currentIndex = 0;
