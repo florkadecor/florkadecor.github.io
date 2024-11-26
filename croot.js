@@ -27,23 +27,23 @@ function handleHashChange(event) {
     switch(currentHash) {
         case "home":
             // Kode untuk value1
-            renderHTML('content', 'content/home.html', loadSliderJS);
+            renderHTML('content', 'content/home.html');
             break;
         case "vendors":
             // Kode untuk value2
-            renderHTML('content', 'content/vendor.html', loadSliderJS);
+            renderHTML('content', 'content/vendor.html');
             break;
         case "profile":
-            renderHTML('content', 'content/profile.html', loadSliderJS);
+            renderHTML('content', 'content/profile.html');
             break;
         case "store":
-            renderHTML('content', 'content/paket.html', loadSliderJS);
+            renderHTML('content', 'content/paket.html');
             break;
         case "inspirations":
-            renderHTML('content', 'content/inspirasi.html', loadSliderJS);
+            renderHTML('content', 'content/inspirasi.html');
             break;
         default:
-            renderHTML('content', 'content/home.html', loadSliderJS);
+            renderHTML('content', 'content/home.html');
             // Kode untuk kondisi default (opsional)
     }
 }
