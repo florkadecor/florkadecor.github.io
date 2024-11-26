@@ -1,5 +1,6 @@
-import {renderHTML} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.7/element.js";
+import {renderHTML,addJSInHead} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.7/element.js";
 
 
 
-renderHTML("content","content/home.html");
+await renderHTML("content","content/home.html");
+addJSInHead("slider.js");
