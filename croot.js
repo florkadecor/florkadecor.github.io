@@ -46,12 +46,12 @@ function runSliderJS() {
     });
     // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
     // Auto-slide (opsional)
-    setInterval(() => {
+/*     setInterval(() => {
         if (!isDragging) {
             currentIndex = (currentIndex + 1) % document.querySelectorAll('.slide').length;
             showSlide(currentIndex);
         }
-    }, 5000);
+    }, 5000); */
 }
 
 
