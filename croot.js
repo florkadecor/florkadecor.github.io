@@ -22,8 +22,36 @@ function loadSliderJS() {
 
 function runSliderJS() {
     console.log('slider js sudah di run');
-    addJSInHead("sliderrun.js");
+    //addJSInHead("sliderrun.js");
+    currentIndex = 0;
+    isDragging = false;
+    startPos = 0;
+    currentTranslate = 0;
+    prevTranslate = 0;
+    // Menambahkan event listener untuk setiap slide
+    document.querySelectorAll('.slide').forEach((slide, index) => {
+        const slideImage = slide.querySelector('img');
+        slideImage.addEventListener('dragstart', (e) => e.preventDefault());
+
+        // Touch events
+        slide.addEventListener('touchstart', touchStart(index));
+        slide.addEventListener('touchend', touchEnd);
+        slide.addEventListener('touchmove', touchMove);
+
+        // Mouse events
+        slide.addEventListener('mousedown', touchStart(index));
+        slide.addEventListener('mouseup', touchEnd);
+        slide.addEventListener('mousemove', touchMove);
+        slide.addEventListener('mouseleave', touchEnd);
+    });
     // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
+    // Auto-slide (opsional)
+    setInterval(() => {
+        if (!isDragging) {
+            currentIndex = (currentIndex + 1) % document.querySelectorAll('.slide').length;
+            showSlide(currentIndex);
+        }
+    }, 5000);
 }
 
 
