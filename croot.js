@@ -20,6 +20,12 @@ function loadSliderJS() {
     // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
 }
 
+function runSliderJS() {
+    console.log('slider js sudah di run');
+    addJSInHead("sliderrun.js");
+    // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
+}
+
 
 function handleHashChange(event) {
     console.log('Hash changed!');
@@ -34,23 +40,23 @@ function handleHashChange(event) {
     switch(currentHash) {
         case "home":
             // Kode untuk value1
-            renderHTML('content', 'content/home.html', loadSliderJS);
+            renderHTML('content', 'content/home.html', runSliderJS);
             break;
         case "vendors":
             // Kode untuk value2
-            renderHTML('content', 'content/vendor.html', loadSliderJS);
+            renderHTML('content', 'content/vendor.html', runSliderJS);
             break;
         case "profile":
-            renderHTML('content', 'content/profile.html', loadSliderJS);
+            renderHTML('content', 'content/profile.html', runSliderJS);
             break;
         case "store":
-            renderHTML('content', 'content/paket.html', loadSliderJS);
+            renderHTML('content', 'content/paket.html', runSliderJS);
             break;
         case "inspirations":
-            renderHTML('content', 'content/inspirasi.html', loadSliderJS);
+            renderHTML('content', 'content/inspirasi.html', runSliderJS);
             break;
         default:
-            renderHTML('content', 'content/home.html', loadSliderJS);
+            renderHTML('content', 'content/home.html', runSliderJS);
             // Kode untuk kondisi default (opsional)
     }
 }
