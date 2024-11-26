@@ -19,34 +19,6 @@ function loadSliderJS() {
     // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
 }
 
-function runSliderJS() {
-    console.log('run slider');
-    // Menambahkan event listener untuk setiap slide
-    slides.forEach((slide, index) => {
-        const slideImage = slide.querySelector('img');
-        slideImage.addEventListener('dragstart', (e) => e.preventDefault());
-
-        // Touch events
-        slide.addEventListener('touchstart', touchStart(index));
-        slide.addEventListener('touchend', touchEnd);
-        slide.addEventListener('touchmove', touchMove);
-
-        // Mouse events
-        slide.addEventListener('mousedown', touchStart(index));
-        slide.addEventListener('mouseup', touchEnd);
-        slide.addEventListener('mousemove', touchMove);
-        slide.addEventListener('mouseleave', touchEnd);
-    });
-    // Auto-slide (opsional)
-    setInterval(() => {
-        if (!isDragging) {
-            currentIndex = (currentIndex + 1) % slides.length;
-            showSlide(currentIndex);
-        }
-    }, 5000);
-
-}
-
 
 function handleHashChange(event) {
     console.log('Hash changed!');
@@ -61,23 +33,23 @@ function handleHashChange(event) {
     switch(currentHash) {
         case "home":
             // Kode untuk value1
-            renderHTML('content', 'content/home.html', runSliderJS);
+            renderHTML('content', 'content/home.html', loadSliderJS);
             break;
         case "vendors":
             // Kode untuk value2
-            renderHTML('content', 'content/vendor.html', runSliderJS);
+            renderHTML('content', 'content/vendor.html', loadSliderJS);
             break;
         case "profile":
-            renderHTML('content', 'content/profile.html', runSliderJS);
+            renderHTML('content', 'content/profile.html', loadSliderJS);
             break;
         case "store":
-            renderHTML('content', 'content/paket.html', runSliderJS);
+            renderHTML('content', 'content/paket.html', loadSliderJS);
             break;
         case "inspirations":
-            renderHTML('content', 'content/inspirasi.html', runSliderJS);
+            renderHTML('content', 'content/inspirasi.html', loadSliderJS);
             break;
         default:
-            renderHTML('content', 'content/home.html', runSliderJS);
+            renderHTML('content', 'content/home.html', loadSliderJS);
             // Kode untuk kondisi default (opsional)
     }
 }
