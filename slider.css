@@ -35,16 +35,14 @@
 /* Overlay teks */
 .text-overlay {
     position: absolute; /* Posisi absolut untuk overlay */
-    top: 50%; /* Posisikan di tengah vertikal */
-    left: 50%; /* Posisikan di tengah horizontal */
-    transform: translate(-50%, -50%); /* Pusatkan elemen secara sempurna */
+    bottom: -17px; /* Posisikan di dekat bagian bawah slide */
+    left: 0px; /* Posisikan di dekat bagian kiri slide */
     z-index: 2; /* Pastikan overlay berada di atas gambar */
     color: #fff; /* Warna teks putih */
-    text-align: center; /* Teks rata tengah */
-    background: rgba(0, 0, 0, 0.5); /* Latar belakang transparan hitam */
-    padding: 10px; /* Ruang di dalam overlay */
-    border-radius: 5px; /* Sudut melengkung pada latar belakang */
-    max-width: 80%; /* Batas maksimal lebar overlay */
+    text-align: left; /* Teks rata kiri */
+    padding: 5px; /* Ruang di dalam overlay lebih kecil */
+    border-radius: 3px; /* Sudut melengkung pada latar belakang */
+    font-size: 0.6em; /* Ukuran teks lebih kecil */
 }
 
 /* Navigasi dots */
