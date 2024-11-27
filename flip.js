@@ -1,17 +1,17 @@
 // Daftar gambar unik, judul, dan deskripsi untuk setiap grid
 const gridContent = [
     {
-        images: ['grid1_image1.jpg', 'grid1_image2.jpg', 'grid1_image3.jpg'],
+        images: ['paket/sre1.png', 'paket/sre2.png', 'paket/sre3.png'],
         title: 'Siraman, Pengajian Engagement',
         description: 'Paket Siraman dan Pengajian, Engangement'
     },
     {
-        images: ['grid3_image1.jpg', 'grid3_image2.jpg', 'grid3_image3.jpg'],
+        images: ['paket/akad1.png', 'paket/akad2.png', 'paket/akad3.png'],
         title: 'Akad',
         description: 'Paket Untuk Akad'
     },
     {
-        images: ['grid4_image1.jpg', 'grid4_image2.jpg', 'grid4_image3.jpg'],
+        images: ['paket/outd1.png', 'paket/outd2.png', 'paket/outd3.png', 'paket/outd4.png', 'paket/outd5.png'],
         title: 'Outdoor',
         description: 'Paket Untuk Outdoor'
     },
