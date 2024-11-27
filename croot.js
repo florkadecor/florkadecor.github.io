@@ -132,9 +132,7 @@ function runSliderandFlipJS() {
         slide.addEventListener('mousemove', touchMove);
         slide.addEventListener('mouseleave', touchEnd);
     });
-    document.addEventListener('DOMContentLoaded', function() {
-        startFlipping('.grid-item');
-    });
+    startFlipping('.grid-item');
 }
 
 
