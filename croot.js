@@ -14,36 +14,6 @@ onHashChange(handleHashChange);
 // Memanggil renderHTML dengan callback
 renderHTML('content', 'content/home.html', loadSliderJS);
 
-function loadSliderJS() {
-    console.log('slider js sudah di load');
-    addJSInHead("slider.js");
-    // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
-}
-
-function runSliderJS() {
-    console.log('slider js sudah di run');
-    currentIndex = 0;
-    isDragging = false;
-    startPos = 0;
-    currentTranslate = 0;
-    prevTranslate = 0;
-    // Menambahkan event listener untuk setiap slide
-    document.querySelectorAll('.slide').forEach((slide, index) => {
-        const slideImage = slide.querySelector('img');
-        slideImage.addEventListener('dragstart', (e) => e.preventDefault());
-
-        // Touch events
-        slide.addEventListener('touchstart', touchStart(index));
-        slide.addEventListener('touchend', touchEnd);
-        slide.addEventListener('touchmove', touchMove);
-
-        // Mouse events
-        slide.addEventListener('mousedown', touchStart(index));
-        slide.addEventListener('mouseup', touchEnd);
-        slide.addEventListener('mousemove', touchMove);
-        slide.addEventListener('mouseleave', touchEnd);
-    });
-}
 
 
 function handleHashChange(event) {
@@ -72,7 +42,7 @@ function handleHashChange(event) {
             footerMenuSetActive();
             break;
         case "store":
-            renderHTML('content', 'content/paket.html', runSliderJS);
+            renderHTML('content', 'content/paket.html', runSliderandFlipJS);
             footerMenuSetActive();
             break;
         case "inspirations":
@@ -105,3 +75,66 @@ function footerMenuSetActive(){
         }
     });
 }
+
+
+
+function loadSliderJS() {
+    console.log('slider js sudah di load');
+    addJSInHead("slider.js");
+    // Tambahkan kode tambahan di sini, misalnya inisialisasi event listener
+}
+
+function runSliderJS() {
+    console.log('slider js sudah di run');
+    currentIndex = 0;
+    isDragging = false;
+    startPos = 0;
+    currentTranslate = 0;
+    prevTranslate = 0;
+    // Menambahkan event listener untuk setiap slide
+    document.querySelectorAll('.slide').forEach((slide, index) => {
+        const slideImage = slide.querySelector('img');
+        slideImage.addEventListener('dragstart', (e) => e.preventDefault());
+
+        // Touch events
+        slide.addEventListener('touchstart', touchStart(index));
+        slide.addEventListener('touchend', touchEnd);
+        slide.addEventListener('touchmove', touchMove);
+
+        // Mouse events
+        slide.addEventListener('mousedown', touchStart(index));
+        slide.addEventListener('mouseup', touchEnd);
+        slide.addEventListener('mousemove', touchMove);
+        slide.addEventListener('mouseleave', touchEnd);
+    });
+}
+
+function runSliderandFlipJS() {
+    console.log('slider js sudah di run');
+    currentIndex = 0;
+    isDragging = false;
+    startPos = 0;
+    currentTranslate = 0;
+    prevTranslate = 0;
+    // Menambahkan event listener untuk setiap slide
+    document.querySelectorAll('.slide').forEach((slide, index) => {
+        const slideImage = slide.querySelector('img');
+        slideImage.addEventListener('dragstart', (e) => e.preventDefault());
+
+        // Touch events
+        slide.addEventListener('touchstart', touchStart(index));
+        slide.addEventListener('touchend', touchEnd);
+        slide.addEventListener('touchmove', touchMove);
+
+        // Mouse events
+        slide.addEventListener('mousedown', touchStart(index));
+        slide.addEventListener('mouseup', touchEnd);
+        slide.addEventListener('mousemove', touchMove);
+        slide.addEventListener('mouseleave', touchEnd);
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        startFlipping('.grid-item');
+    });
+}
+
+
