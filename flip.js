@@ -2,33 +2,33 @@
 const gridContent = [
     {
         images: ['grid1_image1.jpg', 'grid1_image2.jpg', 'grid1_image3.jpg'],
-        title: 'Judul 1',
-        description: 'Deskripsi untuk grid 1'
-    },
-    {
-        images: ['grid2_image1.jpg', 'grid2_image2.jpg', 'grid2_image3.jpg'],
-        title: 'Judul 2',
-        description: 'Deskripsi untuk grid 2'
+        title: 'Siraman, Pengajian Engagement',
+        description: 'Paket Siraman dan Pengajian, Engangement'
     },
     {
         images: ['grid3_image1.jpg', 'grid3_image2.jpg', 'grid3_image3.jpg'],
-        title: 'Judul 3',
-        description: 'Deskripsi untuk grid 3'
+        title: 'Akad',
+        description: 'Paket Untuk Akad'
     },
     {
         images: ['grid4_image1.jpg', 'grid4_image2.jpg', 'grid4_image3.jpg'],
-        title: 'Judul 4',
-        description: 'Deskripsi untuk grid 4'
+        title: 'Outdoor',
+        description: 'Paket Untuk Outdoor'
     },
     {
-        images: ['grid5_image1.jpg', 'grid5_image2.jpg', 'grid5_image3.jpg'],
-        title: 'Judul 5',
-        description: 'Deskripsi untuk grid 5'
+        images: ['paket/ind1.png', 'paket/ind2.png', 'paket/ind3.png', 'paket/ind4.png', 'paket/ind5.png', 'paket/ind6.png', 'paket/ind7.png', 'paket/ind8.png'],
+        title: 'Indoor',
+        description: 'Paket Untuk Indoor'
     },
     {
-        images: ['grid6_image1.jpg', 'grid6_image2.jpg', 'grid6_image3.jpg'],
-        title: 'Judul 6',
-        description: 'Deskripsi untuk grid 6'
+        images: ['paket/gr1.png', 'paket/gr2.png', 'paket/gr3.png', 'paket/gr4.png'],
+        title: 'Grande',
+        description: 'Paket Grande'
+    },
+    {
+        images: ['paket/tr1.png', 'paket/tr2.png', 'paket/tr3.png', 'paket/tr4.png', 'paket/tr5.png', 'paket/tr6.png', 'paket/tr7.png', 'paket/tr8.png'],
+        title: 'Tradisional',
+        description: 'Paket Tradisional'
     },
 ];
 
