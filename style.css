@@ -24,3 +24,27 @@ body {
     overflow-y: auto; /* Menyediakan scroll hanya jika diperlukan (konten lebih tinggi) */
     overflow-x: hidden; /* Pastikan tidak ada scroll horizontal */
 }
+
+
+h2 {
+  color: #444;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
