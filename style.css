@@ -48,3 +48,8 @@ ul {
 ul li {
   margin: 5px 0;
 }
+
+p {
+  text-align: justify; /* Membuat teks rata kanan-kiri */
+  margin-bottom: 15px; /* Menambahkan jarak antar paragraf */
+}
