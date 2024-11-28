@@ -34,7 +34,7 @@ function handleHashChange(event) {
             break;
         case "vendors":
             // Kode untuk value2
-            renderHTML('content', 'content/vendor.html', runSliderJS);
+            renderHTML('content', 'content/vendor.html', runSliderJSandTab);
             footerMenuSetActive();
             break;
         case "profile":
