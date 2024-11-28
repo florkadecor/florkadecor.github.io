@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap; /* Untuk mobile */
+    justify-content: center; /* Pusatkan tab di mobile */
+    padding: 10px 20px;
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Pastikan lebar penuh */
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Supaya tab tidak keluar layar di mobile */
+    justify-content: center; /* Pusatkan konten */
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    margin: 5px; /* Berikan jarak agar terlihat rapi di mobile */
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    text-align: center;
+}
+
+.tab:hover,
+.tab.active {
+    border-bottom: 2px solid #00ff00;
+    color: #00ff00;
+}
+
+.tab-content {
+    padding: 20px;
+    margin-top: 20px;
+    width: 90%; /* Supaya tidak terlalu lebar di layar kecil */
+    max-width: 600px; /* Batas maksimal lebar di desktop */
+    background-color: #181818;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Tambahkan media query untuk tampilan lebih kecil */
+@media (max-width: 768px) {
+    .tab-content {
+        width: 95%; /* Lebar menyesuaikan layar */
+    }
+
+    .tab {
+        font-size: 14px; /* Sesuaikan ukuran teks */
+    }
+}
