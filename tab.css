@@ -3,7 +3,7 @@
     flex-wrap: wrap; /* Untuk mobile */
     justify-content: center; /* Pusatkan tab di mobile */
     padding: 10px 20px;
-    background-color: #1f1f1f;
+    background-color: #ffb7b7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%; /* Pastikan lebar penuh */
 }
