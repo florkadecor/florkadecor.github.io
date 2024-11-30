@@ -2,7 +2,7 @@ import {renderHTML,addJSInHead,onClick} from "https://cdn.jsdelivr.net/gh/jscroo
 import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
 import {get} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/api.js";
 import {renderVendor} from "/js/vendor.js";
-
+import {runafterGetPaketSPE} from "/js/paket.js";
 
 onClick("phoneiconcall",waFlorka);
 
@@ -61,34 +61,9 @@ function handleHashChange(event) {
     }
 }
 
-function runPaketSPE(){
-    get("/data/paket/spe/spe.json",runafterGetPaketSPE);
-}
-
-function runafterGetPaketSPE(data){
-    const slider = document.querySelector('.slider');
-    const dotsContainer = document.querySelector('.dots');
-
-    data.forEach((item, index) => {
-      // Create slide element
-      const slide = document.createElement('div');
-      slide.className = 'slide';
-
-      slide.innerHTML = `
-        <img src="${item.image}" alt="${item.alt}">
-        <div class="text-overlay">
-          <h2>${item.title}</h2>
-          <p>${item.description}</p>
-        </div>
-      `;
-      slider.appendChild(slide);
-
-      // Create dot element
-      const dot = document.createElement('span');
-      dot.className = 'dot';
-      //if (index === 0) dot.classList.add('active'); // Set first dot as active
-      dotsContainer.appendChild(dot);
-    });
+async function runPaketSPE(){
+    await get("/data/paket/spe/spe.json",runafterGetPaketSPE);
+    runSliderJS();
 }
 
 function footerMenuSetActive(){
