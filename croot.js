@@ -91,6 +91,7 @@ function unmuteButtonVideoBG(){
             this.textContent = 'Unmute';
         }
     });
+    loadSliderJS();
 }
 
 function loadSliderJS() {
