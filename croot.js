@@ -77,7 +77,20 @@ function footerMenuSetActive(){
     });
 }
 
-
+function unmuteButtonVideoBG(){
+    document.getElementById('unmute-btn').addEventListener('click', function () {
+        const video = document.getElementById('background-video');
+    
+        // Toggle mute/unmute
+        if (video.muted) {
+            video.muted = false;
+            this.textContent = 'Mute';
+        } else {
+            video.muted = true;
+            this.textContent = 'Unmute';
+        }
+    });
+}
 
 function loadSliderJS() {
     console.log('slider js sudah di load');
@@ -108,6 +121,7 @@ function runSliderJS() {
         slide.addEventListener('mousemove', touchMove);
         slide.addEventListener('mouseleave', touchEnd);
     });
+    unmuteButtonVideoBG();
 }
 
 function runSliderJSandTab() {
