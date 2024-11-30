@@ -5,7 +5,11 @@ import {renderVendor} from "/js/vendor.js";
 import {runafterGetPaket} from "/js/paket.js";
 
 onClick("phoneiconcall",waFlorka);
+onClick("barsicon",barsMenu);
 
+function barsMenu(){
+    window.open('https://www.instagram.com/florkadeco.id', '_blank');
+}
 //call wa atau wa dulu
 function waFlorka(){
     window.open('https://wa.me/6285721000489', '_blank');
