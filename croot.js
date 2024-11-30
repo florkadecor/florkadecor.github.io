@@ -78,6 +78,7 @@ function footerMenuSetActive(){
 }
 
 function unmuteButtonVideoBG(){
+    console.log("js unmute button");
     document.getElementById('unmute-btn').addEventListener('click', function () {
         const video = document.getElementById('background-video');
     
