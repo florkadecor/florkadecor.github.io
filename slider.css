@@ -1,26 +1,28 @@
 /* Kontainer slider */
-.slider-container {
-    margin: 0; /* Pastikan kontainer slider tidak memiliki margin */
+.slider-container,
+.slider-container-big {
+    margin: 0;
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 25vh; /* Slider memenuhi 25% dari tinggi layar */
-    max-height: 300px; /* (Opsional) Batas maksimum tinggi slider */
+}
+
+.slider-container {
+    height: 25vh;
+    max-height: 300px;
 }
 
 .slider-container-big {
-    margin: 0; /* Pastikan kontainer slider tidak memiliki margin */
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 90vh; /* Slider memenuhi 25% dari tinggi layar */
-    max-height: 600px; /* (Opsional) Batas maksimum tinggi slider */
+    height: 90vh;
+    max-height: 600px;
 }
+
 
 /* Slider */
 .slider {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    /*transition: transform 0.5s ease-in-out;*/
+    transition: -webkit-transform 0.5s ease-in-out, transform 0.5s ease-in-out;
     height: 100%; /* Tinggi slider sesuai dengan kontainer */
 }
 
@@ -47,13 +49,14 @@
     bottom: 10px; /* Posisikan di dekat bagian bawah slide, sedikit lebih ke atas */
     left: 15px; /* Posisikan sedikit lebih ke dalam dari sisi kiri untuk memberikan ruang */
     z-index: 2; /* Pastikan overlay berada di atas gambar */
-    color: #f0f0f0f; /* Warna teks putih */
+    color: #f0f0f0; /* Warna teks putih */
     text-align: left; /* Teks rata kiri */
     padding: 8px; /* Ruang lebih besar di dalam overlay untuk meningkatkan keterbacaan */
     background: rgba(0, 0, 0, 0.4); /* Overlay dengan transparansi lebih ringan */
     border-radius: 5px; /* Sudut lebih halus pada latar belakang */
     font-size: 1em; /* Ukuran teks ditingkatkan untuk visibilitas lebih baik */
     max-width: 60%; /* Batas lebar teks agar tetap di dalam slide */
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7); /* Memberikan bayangan untuk meningkatkan kontras */
 }
 
 
@@ -69,8 +72,8 @@
 }
 
 .dot {
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     background: #ccc;
     border-radius: 50%;
     cursor: pointer;
@@ -78,4 +81,22 @@
 
 .dot.active {
     background: #fff;
+}
+
+.dot:hover {
+    background: rgba(255, 255, 255, 0.8); /* Memberikan indikasi interaksi */
+    transform: scale(1.2); /* Efek zoom ringan */
+}
+
+
+@media (max-width: 600px) {
+    .text-overlay {
+        font-size: 0.8em; /* Ukuran teks lebih kecil */
+        max-width: 80%; /* Lebar teks lebih fleksibel */
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
 }
