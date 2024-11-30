@@ -82,7 +82,7 @@
 /* Unmute button */
 #unmute-btn {
     position: fixed;
-    bottom: 20px;
+    bottom: 75px;
     right: 20px;
     padding: 10px 20px;
     font-size: 1rem;
