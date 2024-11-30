@@ -10,31 +10,31 @@ const gridContent = [
         images: ['paket/akad1.png', 'paket/akad2.png', 'paket/akad3.png'],
         title: 'Akad',
         description: 'Paket Untuk Akad',
-        url: '#store'
+        url: '#paketakad'
     },
     {
         images: ['paket/outd1.png', 'paket/outd2.png', 'paket/outd3.png', 'paket/outd4.png', 'paket/outd5.png'],
         title: 'Outdoor',
         description: 'Paket Untuk Outdoor',
-        url: '#store'
+        url: '#paketoutdoor'
     },
     {
         images: ['paket/ind1.png', 'paket/ind2.png', 'paket/ind3.png', 'paket/ind4.png', 'paket/ind5.png', 'paket/ind6.png', 'paket/ind7.png', 'paket/ind8.png'],
         title: 'Indoor',
         description: 'Paket Untuk Indoor',
-        url: '#store'
+        url: '#paketindoor'
     },
     {
         images: ['paket/gr1.png', 'paket/gr2.png', 'paket/gr3.png', 'paket/gr4.png'],
         title: 'Grande',
         description: 'Paket Grande',
-        url: '#store'
+        url: '#paketgrande'
     },
     {
         images: ['paket/tr1.png', 'paket/tr2.png', 'paket/tr3.png', 'paket/tr4.png', 'paket/tr5.png', 'paket/tr6.png', 'paket/tr7.png', 'paket/tr8.png'],
         title: 'Tradisional',
         description: 'Paket Tradisional',
-        url: '#store'
+        url: '#pakettradisional'
     },
 ];
 

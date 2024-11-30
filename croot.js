@@ -2,7 +2,7 @@ import {renderHTML,addJSInHead,onClick} from "https://cdn.jsdelivr.net/gh/jscroo
 import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
 import {get} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/api.js";
 import {renderVendor} from "/js/vendor.js";
-import {runafterGetPaketSPE} from "/js/paket.js";
+import {runafterGetPaket} from "/js/paket.js";
 
 onClick("phoneiconcall",waFlorka);
 
@@ -47,7 +47,27 @@ function handleHashChange(event) {
             footerMenuSetActive();
             break;
         case "paketspe":
-            renderHTML('content', 'content/paketspe.html', runPaketSPE);
+            renderHTML('content', 'content/paketcontent.html', runPaketSPE);
+            footerMenuSetActive();
+            break;
+        case "paketakad":
+            renderHTML('content', 'content/paketcontent.html', runPaketAkad);
+            footerMenuSetActive();
+            break;
+        case "paketoutdoor":
+            renderHTML('content', 'content/paketcontent.html', runPaketOutdoor);
+            footerMenuSetActive();
+            break;
+        case "paketindoor":
+            renderHTML('content', 'content/paketcontent.html', runPaketIndoor);
+            footerMenuSetActive();
+            break;
+        case "paketgrande":
+            renderHTML('content', 'content/paketcontent.html', runPaketGrande);
+            footerMenuSetActive();
+            break;
+        case "pakettradisional":
+            renderHTML('content', 'content/paketcontent.html', runPaketTradisional);
             footerMenuSetActive();
             break;
         case "inspirations":
@@ -61,8 +81,23 @@ function handleHashChange(event) {
     }
 }
 
-async function runPaketSPE(){
-    get("/data/paket/spe/spe.json",runafterGetPaketSPE);
+function runPaketSPE(){
+    get("/data/paket/spe/spe.json",runafterGetPaket);
+}
+function runPaketAkad(){
+    get("/data/paket/akad/akad.json",runafterGetPaket);
+}
+function runPaketOutdoor(){
+    get("/data/paket/outdoor/outdoor.json",runafterGetPaket);
+}
+function runPaketIndoor(){
+    get("/data/paket/indoor/indoor.json",runafterGetPaket);
+}
+function runPaketGrande(){
+    get("/data/paket/grande/grande.json",runafterGetPaket);
+}
+function runPaketTradisional(){
+    get("/data/paket/tradisional/tradisional.json",runafterGetPaket);
 }
 
 function footerMenuSetActive(){

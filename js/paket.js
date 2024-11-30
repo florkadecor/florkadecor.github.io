@@ -1,4 +1,4 @@
-export function runafterGetPaketSPE(data){
+export function runafterGetPaket(data){
     console.log("render html paket");
     renderHTMLPaket(data);
     //perintah yang jalan setelah renderHTMLPaket berhasil di load sempurna
