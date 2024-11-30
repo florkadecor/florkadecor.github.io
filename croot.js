@@ -121,6 +121,13 @@ function runSliderJS() {
         slide.addEventListener('mousemove', touchMove);
         slide.addEventListener('mouseleave', touchEnd);
     });
+    // Auto-slide (opsional)
+    setInterval(() => {
+        if (!isDragging) {
+            currentIndex = (currentIndex + 1) % document.querySelectorAll('.slide').length;
+            showSlide(currentIndex);
+        }
+    }, 5000);
 }
 
 function runSliderJSandTab() {

@@ -20,23 +20,6 @@ function setSliderPosition() {
     document.querySelector('.slider').style.transform = `translateX(${currentTranslate}px)`;
 }
 
-// Menambahkan event listener untuk setiap slide
-document.querySelectorAll('.slide').forEach((slide, index) => {
-    const slideImage = slide.querySelector('img');
-    slideImage.addEventListener('dragstart', (e) => e.preventDefault());
-
-    // Touch events
-    slide.addEventListener('touchstart', touchStart(index));
-    slide.addEventListener('touchend', touchEnd);
-    slide.addEventListener('touchmove', touchMove);
-
-    // Mouse events
-    slide.addEventListener('mousedown', touchStart(index));
-    slide.addEventListener('mouseup', touchEnd);
-    slide.addEventListener('mousemove', touchMove);
-    slide.addEventListener('mouseleave', touchEnd);
-});
-
 // Fungsi ketika touch atau mouse mulai
 function touchStart(index) {
     return function (event) {
@@ -81,9 +64,3 @@ function animation() {
 }
 
 // Auto-slide (opsional)
-setInterval(() => {
-    if (!isDragging) {
-        currentIndex = (currentIndex + 1) % document.querySelectorAll('.slide').length;
-        showSlide(currentIndex);
-    }
-}, 5000);
