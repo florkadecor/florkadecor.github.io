@@ -159,12 +159,12 @@ function runSliderJSandTab() {
 
 function runafterGetVendorWO(result){
     console.log(result);
-    renderVendor("#feed-grid-venue",result);
+    renderVendor("#feed-grid-wo",result);
 }
 
 function runafterGetVendorVenue(result){
     console.log(result);
-    renderVendor("#feed-grid-wo",result);
+    renderVendor("#feed-grid-venue",result);
 }
 
 function runSliderandFlipJS() {
