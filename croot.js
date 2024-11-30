@@ -13,7 +13,7 @@ function waFlorka(){
 
 onHashChange(handleHashChange);
 // Memanggil renderHTML dengan callback
-renderHTML('content', 'content/home.html', unmuteButtonVideoBG);
+renderHTML('content', 'content/home.html', initLoad);
 
 
 
@@ -77,6 +77,11 @@ function footerMenuSetActive(){
     });
 }
 
+function initLoad(){
+    unmuteButtonVideoBG();
+    loadSliderJS();
+}
+
 function unmuteButtonVideoBG(){
     console.log("js unmute button");
     document.getElementById('unmute-btn').addEventListener('click', function () {
@@ -91,7 +96,6 @@ function unmuteButtonVideoBG(){
             this.textContent = 'Unmute';
         }
     });
-    loadSliderJS();
 }
 
 function loadSliderJS() {
