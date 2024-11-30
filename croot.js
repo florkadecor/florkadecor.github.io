@@ -134,7 +134,8 @@ function runSliderJSandTab() {
         slide.addEventListener('mouseleave', touchEnd);
     });
     //isi dulu vendornya
-    get("/data/vendor/wo/wo.json",runafterGetVendor);
+    get("/data/vendor/wo/wo.json",runafterGetVendorWO);
+    get("/data/vendor/venue/venue.json",runafterGetVendorVenue);
     //tab diaktivasi
     const tabs = document.querySelectorAll('.tab');
     const contents = document.querySelectorAll('.venue-feed');
@@ -156,7 +157,12 @@ function runSliderJSandTab() {
 
 }
 
-function runafterGetVendor(result){
+function runafterGetVendorWO(result){
+    console.log(result);
+    renderVendor("#feed-grid-venue",result);
+}
+
+function runafterGetVendorVenue(result){
     console.log(result);
     renderVendor("#feed-grid-wo",result);
 }
