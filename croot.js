@@ -1,7 +1,7 @@
 import {renderHTML,addJSInHead,onClick} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/element.js";
 import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
 import {get} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/api.js";
-import {renderVendor} from "js/vendor.js";
+import {renderVendor} from "/js/vendor.js";
 
 
 onClick("phoneiconcall",waFlorka);
