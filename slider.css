@@ -8,6 +8,15 @@
     max-height: 300px; /* (Opsional) Batas maksimum tinggi slider */
 }
 
+.slider-container-big {
+    margin: 0; /* Pastikan kontainer slider tidak memiliki margin */
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 90vh; /* Slider memenuhi 25% dari tinggi layar */
+    max-height: 600px; /* (Opsional) Batas maksimum tinggi slider */
+}
+
 /* Slider */
 .slider {
     display: flex;
