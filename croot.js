@@ -30,7 +30,7 @@ function handleHashChange(event) {
     switch(currentHash) {
         case "home":
             // Kode untuk value1
-            renderHTML('content', 'content/home.html', runSliderJS);
+            renderHTML('content', 'content/home.html', unmuteButtonVideoBG);
             footerMenuSetActive();
             break;
         case "vendors":
@@ -51,7 +51,7 @@ function handleHashChange(event) {
             footerMenuSetActive();
             break;
         default:
-            renderHTML('content', 'content/home.html', runSliderJS);
+            renderHTML('content', 'content/home.html', unmuteButtonVideoBG);
             footerMenuSetActive();
             // Kode untuk kondisi default (opsional)
     }
@@ -121,7 +121,6 @@ function runSliderJS() {
         slide.addEventListener('mousemove', touchMove);
         slide.addEventListener('mouseleave', touchEnd);
     });
-    unmuteButtonVideoBG();
 }
 
 function runSliderJSandTab() {
