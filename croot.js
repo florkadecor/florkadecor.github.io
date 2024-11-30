@@ -1,6 +1,7 @@
 import {renderHTML,addJSInHead,onClick} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/element.js";
 import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/url.js";
-
+import {get} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/api.js";
+import {renderVendor} from "js/vendor.js";
 
 
 onClick("phoneiconcall",waFlorka);
@@ -132,7 +133,9 @@ function runSliderJSandTab() {
         slide.addEventListener('mousemove', touchMove);
         slide.addEventListener('mouseleave', touchEnd);
     });
-    //tab
+    //isi dulu vendornya
+    get("/data/vendor/wo/wo.json",runafterGetVendor);
+    //tab diaktivasi
     const tabs = document.querySelectorAll('.tab');
     const contents = document.querySelectorAll('.venue-feed');
 
@@ -151,6 +154,11 @@ function runSliderJSandTab() {
         });
     });
 
+}
+
+function runafterGetVendor(result){
+    console.log(result);
+    renderVendor("#feed-grid-wo",result);
 }
 
 function runSliderandFlipJS() {
