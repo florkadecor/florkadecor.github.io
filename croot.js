@@ -62,8 +62,7 @@ function handleHashChange(event) {
 }
 
 async function runPaketSPE(){
-    await get("/data/paket/spe/spe.json",runafterGetPaketSPE);
-    runSliderJS();
+    get("/data/paket/spe/spe.json",runafterGetPaketSPE);
 }
 
 function footerMenuSetActive(){
