@@ -13,7 +13,7 @@ function waFlorka(){
 
 onHashChange(handleHashChange);
 // Memanggil renderHTML dengan callback
-renderHTML('content', 'content/home.html', loadSliderJS);
+renderHTML('content', 'content/home.html', unmuteButtonVideoBG);
 
 
 
