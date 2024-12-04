@@ -3,7 +3,7 @@ import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.
 import {get} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/api.js";
 import {renderVendor} from "/js/vendor.js";
 import {runafterGetPaket} from "/js/paket.js";
-import {showLoader} from "/js/loader.js";
+import {showLoader,hideLoader} from "/js/loader.js";
 
 onClick("phoneiconcall",waFlorka);
 onClick("barsicon",barsMenu);

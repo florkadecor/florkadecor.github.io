@@ -1,5 +1,7 @@
 // Function untuk menambahkan loader ke dalam body
 export function showLoader() {
+    // Mendapatkan elemen dengan ID 'content'
+    const content = document.getElementById('content');
     // Membuat elemen div untuk loader
     const loader = document.createElement('div');
     loader.className = 'loader-container'; // Tambahkan class CSS untuk container loader
@@ -21,7 +23,7 @@ export function showLoader() {
     loader.appendChild(text);
   
     // Tambahkan loader ke body
-    document.body.appendChild(loader);
+    content.appendChild(loader);
   }
   
   // Function untuk menghapus loader
