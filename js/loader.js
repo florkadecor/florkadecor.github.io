@@ -21,11 +21,14 @@ export function showLoader() {
     // Tambahkan gambar dan teks ke dalam loader container
     loader.appendChild(img);
     loader.appendChild(text);
+    content.innerHTML=loader;
   
+    // Ganti konten di dalam #content dengan loader
+    content.replaceChildren(loader);
     // Tambahkan loader ke body
     //content.appendChild(loader);
     // Ganti konten asli dengan loader
-    content.replaceChild(loader, content.firstChild);
+    //content.replaceChild(loader, content.firstChild);
   }
   
   // Function untuk menghapus loader
