@@ -24,7 +24,7 @@ export function showLoader() {
   <animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;360 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s" begin="-0.4375s"></animateTransform>
 </circle><animateTransform attributeName="transform" type="rotate" calcMode="spline" values="0 50 50;0 50 50" times="0;1" keySplines="0.5 0 0.5 1" repeatCount="indefinite" dur="1.5s"></animateTransform></g></svg>
         <img src="/logo.png" alt="Loader" style="width: 150px; height: auto;">
-        <p class="loader-text">Harap tunggu sebentar...</p>
+        <p class="loader-text">Mohon tunggu sebentar...</p>
       </div>
     `;
   }
