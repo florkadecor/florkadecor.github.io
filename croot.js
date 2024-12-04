@@ -3,6 +3,7 @@ import {onHashChange,getHash} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.
 import {get} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/api.js";
 import {renderVendor} from "/js/vendor.js";
 import {runafterGetPaket} from "/js/paket.js";
+import {showLoader} from "/js/loader.js";
 
 onClick("phoneiconcall",waFlorka);
 onClick("barsicon",barsMenu);
@@ -33,32 +34,39 @@ function handleHashChange(event) {
     // Tambahkan logika berdasarkan hash
     switch(currentHash) {
         case "home":
+            showLoader();
             // Kode untuk value1
             renderHTML('content', 'content/home.html', unmuteButtonVideoBG);
             footerMenuSetActive();
             break;
         case "vendors":
+            showLoader();
             // Kode untuk value2
             renderHTML('content', 'content/vendor.html', runSliderJSandTab);
             footerMenuSetActive();
             break;
         case "profile":
+            showLoader();
             renderHTML('content', 'content/profile.html', runSliderJS);
             footerMenuSetActive();
             break;
         case "store":
+            showLoader();
             renderHTML('content', 'content/paket.html', runSliderandFlipJS);
             footerMenuSetActive();
             break;
         case "paketspe":
+            showLoader();
             renderHTML('content', 'content/paketcontent.html', runPaketSPE);
             footerMenuSetActive();
             break;
         case "paketakad":
+            showLoader();
             renderHTML('content', 'content/paketcontent.html', runPaketAkad);
             footerMenuSetActive();
             break;
         case "paketoutdoor":
+            showLoader();
             renderHTML('content', 'content/paketcontent.html', runPaketOutdoor);
             footerMenuSetActive();
             break;
@@ -67,18 +75,22 @@ function handleHashChange(event) {
             footerMenuSetActive();
             break;
         case "paketgrande":
+            showLoader();
             renderHTML('content', 'content/paketcontent.html', runPaketGrande);
             footerMenuSetActive();
             break;
         case "pakettradisional":
+            showLoader();
             renderHTML('content', 'content/paketcontent.html', runPaketTradisional);
             footerMenuSetActive();
             break;
         case "inspirations":
+            showLoader();
             renderHTML('content', 'content/inspirasi.html', runSliderJS);
             footerMenuSetActive();
             break;
         default:
+            showLoader();
             renderHTML('content', 'content/home.html', unmuteButtonVideoBG);
             footerMenuSetActive();
             // Kode untuk kondisi default (opsional)
